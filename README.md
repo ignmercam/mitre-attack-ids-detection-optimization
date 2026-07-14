@@ -6,6 +6,8 @@ Detection capability and optimization of open-source and commercial IDSs under t
 
 Welcome to the official repository supporting my Bachelor's Thesis (**Trabajo Fin de Grado, TFG**), developed within the **Department of Network Engineering (Departamento de Ingeniería Telemática)** at the **Escuela Técnica Superior de Ingeniería (ETSI)**, **Universidad de Sevilla (2026)**.
 
+Complete Database can be found on: 
+
 ---
 
 # Thesis Information
@@ -116,7 +118,6 @@ These workbooks compile:
 - Operational usability (**FTTAR**) metrics
 - False-positive analysis
 - Detection capability metrics
-- Chronological signature pruning history
 
 ---
 
