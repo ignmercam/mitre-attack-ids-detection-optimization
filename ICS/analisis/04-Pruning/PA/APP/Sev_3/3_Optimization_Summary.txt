@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: APP | Base Severity >= 3
+
+[PRUNING 500]
+Active IDs: 25
+Removed IDs: google-base, ssl, web-browsing
+Detection Rate (PCAPs): 0.154639
+Raw Alerts (Attacks): 61
+Diff Alerts/Flow (Attacks): 36
+Raw Alerts (Legitimate): 478
+Diff Alerts/Flow (Legitimate): 399
+Raw Alerts (Total): 539
+Usability (FP_Alerts/TP_Alerts): 7.8361
+G-Mean: 0.393178
+
+[PRUNING 1000]
+Active IDs: 26
+Removed IDs: ssl, web-browsing
+Detection Rate (PCAPs): 0.154639
+Raw Alerts (Attacks): 61
+Diff Alerts/Flow (Attacks): 36
+Raw Alerts (Legitimate): 1147
+Diff Alerts/Flow (Legitimate): 971
+Raw Alerts (Total): 1208
+Usability (FP_Alerts/TP_Alerts): 18.8033
+G-Mean: 0.393082
+
+[CONSERVATIVE PRUNING]
+Active IDs: 19
+Removed IDs: SCADA, SSH, dns-base, google-base, google-update, imgur-base, ms-update, netbios-ns, websocket
+Detection Rate (PCAPs): 0.247423
+Raw Alerts (Attacks): 592
+Diff Alerts/Flow (Attacks): 558
+Raw Alerts (Legitimate): 201324
+Diff Alerts/Flow (Legitimate): 188198
+Raw Alerts (Total): 201916
+Usability (FP_Alerts/TP_Alerts): 340.0743
+G-Mean: 0.456012
+
+[500+CONSERVATIVE]
+Active IDs: 17
+Removed IDs: SCADA, SSH, dns-base, google-base, google-update, imgur-base, ms-update, netbios-ns, ssl, web-browsing, websocket
+Detection Rate (PCAPs): 0.154639
+Raw Alerts (Attacks): 61
+Diff Alerts/Flow (Attacks): 36
+Raw Alerts (Legitimate): 48
+Diff Alerts/Flow (Legitimate): 44
+Raw Alerts (Total): 109
+Usability (FP_Alerts/TP_Alerts): 0.7869
+G-Mean: 0.393235
+
+[1000+CONSERVATIVE]
+Active IDs: 17
+Removed IDs: SCADA, SSH, dns-base, google-base, google-update, imgur-base, ms-update, netbios-ns, ssl, web-browsing, websocket
+Detection Rate (PCAPs): 0.154639
+Raw Alerts (Attacks): 61
+Diff Alerts/Flow (Attacks): 36
+Raw Alerts (Legitimate): 48
+Diff Alerts/Flow (Legitimate): 44
+Raw Alerts (Total): 109
+Usability (FP_Alerts/TP_Alerts): 0.7869
+G-Mean: 0.393235
+
+[AGRESIVE PRUNING]
+Active IDs: 17
+Removed IDs: SCADA, SSH, dns-base, google-base, google-update, imgur-base, ms-update, netbios-ns, ssh, ssl, websocket
+Detection Rate (PCAPs): 0.247423
+Raw Alerts (Attacks): 579
+Diff Alerts/Flow (Attacks): 547
+Raw Alerts (Legitimate): 3973
+Diff Alerts/Flow (Legitimate): 2494
+Raw Alerts (Total): 4552
+Usability (FP_Alerts/TP_Alerts): 6.8618
+G-Mean: 0.496890
+

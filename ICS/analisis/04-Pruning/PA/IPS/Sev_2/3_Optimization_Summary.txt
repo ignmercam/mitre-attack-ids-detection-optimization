@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: IPS | Base Severity >= 2
+
+[PRUNING 500]
+Active IDs: 17
+Removed IDs: None
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 183
+Diff Alerts/Flow (Attacks): 60
+Raw Alerts (Legitimate): 24
+Diff Alerts/Flow (Legitimate): 23
+Raw Alerts (Total): 207
+Usability (FP_Alerts/TP_Alerts): 0.1311
+G-Mean: 0.507668
+
+[PRUNING 1000]
+Active IDs: 17
+Removed IDs: None
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 183
+Diff Alerts/Flow (Attacks): 60
+Raw Alerts (Legitimate): 24
+Diff Alerts/Flow (Legitimate): 23
+Raw Alerts (Total): 207
+Usability (FP_Alerts/TP_Alerts): 0.1311
+G-Mean: 0.507668
+
+[CONSERVATIVE PRUNING]
+Active IDs: 16
+Removed IDs: SSH
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 183
+Diff Alerts/Flow (Attacks): 60
+Raw Alerts (Legitimate): 11
+Diff Alerts/Flow (Legitimate): 10
+Raw Alerts (Total): 194
+Usability (FP_Alerts/TP_Alerts): 0.0601
+G-Mean: 0.507671
+
+[500+CONSERVATIVE]
+Active IDs: 16
+Removed IDs: SSH
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 183
+Diff Alerts/Flow (Attacks): 60
+Raw Alerts (Legitimate): 11
+Diff Alerts/Flow (Legitimate): 10
+Raw Alerts (Total): 194
+Usability (FP_Alerts/TP_Alerts): 0.0601
+G-Mean: 0.507671
+
+[1000+CONSERVATIVE]
+Active IDs: 16
+Removed IDs: SSH
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 183
+Diff Alerts/Flow (Attacks): 60
+Raw Alerts (Legitimate): 11
+Diff Alerts/Flow (Legitimate): 10
+Raw Alerts (Total): 194
+Usability (FP_Alerts/TP_Alerts): 0.0601
+G-Mean: 0.507671
+
+[AGRESIVE PRUNING]
+Active IDs: 15
+Removed IDs: HTTP, SSH
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 182
+Diff Alerts/Flow (Attacks): 59
+Raw Alerts (Legitimate): 9
+Diff Alerts/Flow (Legitimate): 8
+Raw Alerts (Total): 191
+Usability (FP_Alerts/TP_Alerts): 0.0495
+G-Mean: 0.507671
+

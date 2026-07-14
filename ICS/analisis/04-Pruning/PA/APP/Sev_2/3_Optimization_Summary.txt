@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: APP | Base Severity >= 2
+
+[PRUNING 500]
+Active IDs: 50
+Removed IDs: google-base, ssl, web-browsing
+Detection Rate (PCAPs): 0.494845
+Raw Alerts (Attacks): 383
+Diff Alerts/Flow (Attacks): 160
+Raw Alerts (Legitimate): 995
+Diff Alerts/Flow (Legitimate): 906
+Raw Alerts (Total): 1378
+Usability (FP_Alerts/TP_Alerts): 2.5979
+G-Mean: 0.703188
+
+[PRUNING 1000]
+Active IDs: 51
+Removed IDs: ssl, web-browsing
+Detection Rate (PCAPs): 0.494845
+Raw Alerts (Attacks): 383
+Diff Alerts/Flow (Attacks): 160
+Raw Alerts (Legitimate): 1664
+Diff Alerts/Flow (Legitimate): 1478
+Raw Alerts (Total): 2047
+Usability (FP_Alerts/TP_Alerts): 4.3446
+G-Mean: 0.703017
+
+[CONSERVATIVE PRUNING]
+Active IDs: 35
+Removed IDs: SSH, dns-base, github-base, gitlab-base, google-base, google-update, imgur-base, jfrog-artifactory, ms-spynet, ms-update, netbios-ns, ocsp, soap, teamviewer-base, teamviewer-web, upnp, websocket, zoom-base
+Detection Rate (PCAPs): 0.536082
+Raw Alerts (Attacks): 906
+Diff Alerts/Flow (Attacks): 682
+Raw Alerts (Legitimate): 201338
+Diff Alerts/Flow (Legitimate): 188208
+Raw Alerts (Total): 202244
+Usability (FP_Alerts/TP_Alerts): 222.2274
+G-Mean: 0.671230
+
+[500+CONSERVATIVE]
+Active IDs: 33
+Removed IDs: SSH, dns-base, github-base, gitlab-base, google-base, google-update, imgur-base, jfrog-artifactory, ms-spynet, ms-update, netbios-ns, ocsp, soap, ssl, teamviewer-base, teamviewer-web, upnp, web-browsing, websocket, zoom-base
+Detection Rate (PCAPs): 0.494845
+Raw Alerts (Attacks): 383
+Diff Alerts/Flow (Attacks): 160
+Raw Alerts (Legitimate): 64
+Diff Alerts/Flow (Legitimate): 54
+Raw Alerts (Total): 447
+Usability (FP_Alerts/TP_Alerts): 0.1671
+G-Mean: 0.703438
+
+[1000+CONSERVATIVE]
+Active IDs: 33
+Removed IDs: SSH, dns-base, github-base, gitlab-base, google-base, google-update, imgur-base, jfrog-artifactory, ms-spynet, ms-update, netbios-ns, ocsp, soap, ssl, teamviewer-base, teamviewer-web, upnp, web-browsing, websocket, zoom-base
+Detection Rate (PCAPs): 0.494845
+Raw Alerts (Attacks): 383
+Diff Alerts/Flow (Attacks): 160
+Raw Alerts (Legitimate): 64
+Diff Alerts/Flow (Legitimate): 54
+Raw Alerts (Total): 447
+Usability (FP_Alerts/TP_Alerts): 0.1671
+G-Mean: 0.703438
+
+[AGRESIVE PRUNING]
+Active IDs: 33
+Removed IDs: SSH, dns-base, github-base, gitlab-base, google-base, google-update, imgur-base, jfrog-artifactory, ms-spynet, ms-update, netbios-ns, ocsp, soap, ssh, ssl, teamviewer-base, teamviewer-web, upnp, websocket, zoom-base
+Detection Rate (PCAPs): 0.536082
+Raw Alerts (Attacks): 899
+Diff Alerts/Flow (Attacks): 671
+Raw Alerts (Legitimate): 3987
+Diff Alerts/Flow (Legitimate): 2504
+Raw Alerts (Total): 4886
+Usability (FP_Alerts/TP_Alerts): 4.4349
+G-Mean: 0.731401
+

@@ -1,0 +1,21 @@
+=== START GM OPTIMIZATION - Engine: PA | Track: IPS | Sev >= 2 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 16 | GM: 0.507671
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID Modbus -> GM: 0.497415
+  [-] No improvement. Keeping ID Modbus.
+
+Iteration 2:
+  Evaluating ID SCADA -> GM: 0.366087
+  [-] No improvement. Keeping ID SCADA.
+
+Iteration 3:
+  Evaluating ID HTTP -> GM: 0.507671
+  [+] IMPROVEMENT FOUND: Removed ID HTTP. New GM: 0.507671
+
+=== FINAL SUMMARY ===
+Final Active IDs: 15
+Final GM Optimal: 0.507671

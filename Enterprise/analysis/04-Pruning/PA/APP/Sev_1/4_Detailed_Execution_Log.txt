@@ -1,0 +1,65 @@
+=== START GM OPTIMIZATION - Engine: PA | Track: APP | Sev >= 1 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 97 | GM: 0.831174
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID Microsoft -> GM: 0.831191
+  [+] IMPROVEMENT FOUND: Removed ID Microsoft. New GM: 0.831191
+
+Iteration 2:
+  Evaluating ID ISF -> GM: 0.831191
+  [+] IMPROVEMENT FOUND: Removed ID ISF. New GM: 0.831191
+
+Iteration 3:
+  Evaluating ID snmpv1-get-request -> GM: 0.825712
+  [-] No improvement. Keeping ID snmpv1-get-request.
+
+Iteration 4:
+  Evaluating ID dns-base -> GM: 0.831197
+  [+] IMPROVEMENT FOUND: Removed ID dns-base. New GM: 0.831197
+
+Iteration 5:
+  Evaluating ID RPC -> GM: 0.831197
+  [-] No improvement. Keeping ID RPC.
+
+Iteration 6:
+  Evaluating ID portmapper -> GM: 0.831197
+  [-] No improvement. Keeping ID portmapper.
+
+Iteration 7:
+  Evaluating ID Non-RFC -> GM: 0.831199
+  [+] IMPROVEMENT FOUND: Removed ID Non-RFC. New GM: 0.831199
+
+Iteration 8:
+  Evaluating ID Metasploit -> GM: 0.831200
+  [+] IMPROVEMENT FOUND: Removed ID Metasploit. New GM: 0.831200
+
+Iteration 9:
+  Evaluating ID Suspicious -> GM: 0.831200
+  [-] No improvement. Keeping ID Suspicious.
+
+Iteration 10:
+  Evaluating ID 9999 -> GM: 0.831200
+  [-] No improvement. Keeping ID 9999.
+
+Iteration 11:
+  Evaluating ID ssl -> GM: 0.831200
+  [-] No improvement. Keeping ID ssl.
+
+Iteration 12:
+  Evaluating ID incomplete -> GM: 0.831200
+  [+] IMPROVEMENT FOUND: Removed ID incomplete. New GM: 0.831200
+
+Iteration 13:
+  Evaluating ID ms-ds-smb-base -> GM: 0.831200
+  [+] IMPROVEMENT FOUND: Removed ID ms-ds-smb-base. New GM: 0.831200
+
+Iteration 14:
+  Evaluating ID ms-ds-smbv1 -> GM: 0.831200
+  [+] IMPROVEMENT FOUND: Removed ID ms-ds-smbv1. New GM: 0.831200
+
+=== FINAL SUMMARY ===
+Final Active IDs: 89
+Final GM Optimal: 0.831200

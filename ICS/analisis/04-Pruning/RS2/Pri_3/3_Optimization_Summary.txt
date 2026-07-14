@@ -1,0 +1,77 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Ruleset: RS2
+Scenario: Priority <= 3
+Method: External CSV Ordered Backward Elimination + Static Pruning
+
+[PRUNING 500]
+Active Rules: 65
+Removed SIDs: 2003068, 2027766, 2027868
+Detection Rate (PCAPs): 0.247423
+Raw Alerts (Attacks): 3470
+Diff Alerts/Flow (Attacks): 157
+Raw Alerts (Legitimate): 1664
+Diff Alerts/Flow (Legitimate): 323
+Raw Alerts (Total): 5134
+Usability (FP_Alerts/TP_Alerts): 0.4795
+G-Mean: 0.497354
+
+[PRUNING 1000]
+Active Rules: 66
+Removed SIDs: 2003068, 2027766
+Detection Rate (PCAPs): 0.247423
+Raw Alerts (Attacks): 3470
+Diff Alerts/Flow (Attacks): 157
+Raw Alerts (Legitimate): 2371
+Diff Alerts/Flow (Legitimate): 1020
+Raw Alerts (Total): 5841
+Usability (FP_Alerts/TP_Alerts): 0.6833
+G-Mean: 0.497207
+
+[CONSERVATIVE PRUNING]
+Active Rules: 47
+Removed SIDs: 2001219, 2001330, 2003068, 2003626, 2010939, 2013504, 2014520, 2014819, 2019401, 2021378, 2022371, 2025275, 2027390, 2027757, 2027761, 2027766, 2027868, 2031071, 2043238, 2049201, 2049202
+Detection Rate (PCAPs): 0.247423
+Raw Alerts (Attacks): 3470
+Diff Alerts/Flow (Attacks): 157
+Raw Alerts (Legitimate): 722
+Diff Alerts/Flow (Legitimate): 40
+Raw Alerts (Total): 4192
+Usability (FP_Alerts/TP_Alerts): 0.2081
+G-Mean: 0.497408
+
+[500+CONSERVATIVE]
+Active Rules: 47
+Removed SIDs: 2001219, 2001330, 2003068, 2003626, 2010939, 2013504, 2014520, 2014819, 2019401, 2021378, 2022371, 2025275, 2027390, 2027757, 2027761, 2027766, 2027868, 2031071, 2043238, 2049201, 2049202
+Detection Rate (PCAPs): 0.247423
+Raw Alerts (Attacks): 3470
+Diff Alerts/Flow (Attacks): 157
+Raw Alerts (Legitimate): 722
+Diff Alerts/Flow (Legitimate): 40
+Raw Alerts (Total): 4192
+Usability (FP_Alerts/TP_Alerts): 0.2081
+G-Mean: 0.497408
+
+[1000+CONSERVATIVE]
+Active Rules: 47
+Removed SIDs: 2001219, 2001330, 2003068, 2003626, 2010939, 2013504, 2014520, 2014819, 2019401, 2021378, 2022371, 2025275, 2027390, 2027757, 2027761, 2027766, 2027868, 2031071, 2043238, 2049201, 2049202
+Detection Rate (PCAPs): 0.247423
+Raw Alerts (Attacks): 3470
+Diff Alerts/Flow (Attacks): 157
+Raw Alerts (Legitimate): 722
+Diff Alerts/Flow (Legitimate): 40
+Raw Alerts (Total): 4192
+Usability (FP_Alerts/TP_Alerts): 0.2081
+G-Mean: 0.497408
+
+[AGRESIVE PRUNING]
+Active Rules: 40
+Removed SIDs: 2001219, 2001330, 2002910, 2002911, 2003068, 2003626, 2010935, 2010936, 2010937, 2010939, 2013504, 2014520, 2014819, 2018959, 2019401, 2021378, 2022371, 2025275, 2027390, 2027757, 2027761, 2027766, 2027868, 2031071, 2043238, 2049201, 2049202, 2100366
+Detection Rate (PCAPs): 0.247423
+Raw Alerts (Attacks): 1824
+Diff Alerts/Flow (Attacks): 131
+Raw Alerts (Legitimate): 13
+Diff Alerts/Flow (Legitimate): 2
+Raw Alerts (Total): 1837
+Usability (FP_Alerts/TP_Alerts): 0.0071
+G-Mean: 0.497416
+

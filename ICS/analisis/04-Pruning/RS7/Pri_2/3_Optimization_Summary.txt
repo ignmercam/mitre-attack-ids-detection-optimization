@@ -1,0 +1,77 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Ruleset: RS7
+Scenario: Priority <= 2
+Method: External CSV Ordered Backward Elimination + Static Pruning
+
+[PRUNING 500]
+Active Rules: 17
+Removed SIDs: None
+Detection Rate (PCAPs): 0.195876
+Raw Alerts (Attacks): 3365
+Diff Alerts/Flow (Attacks): 103
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 3365
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.442579
+
+[PRUNING 1000]
+Active Rules: 17
+Removed SIDs: None
+Detection Rate (PCAPs): 0.195876
+Raw Alerts (Attacks): 3365
+Diff Alerts/Flow (Attacks): 103
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 3365
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.442579
+
+[CONSERVATIVE PRUNING]
+Active Rules: 17
+Removed SIDs: None
+Detection Rate (PCAPs): 0.195876
+Raw Alerts (Attacks): 3365
+Diff Alerts/Flow (Attacks): 103
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 3365
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.442579
+
+[500+CONSERVATIVE]
+Active Rules: 17
+Removed SIDs: None
+Detection Rate (PCAPs): 0.195876
+Raw Alerts (Attacks): 3365
+Diff Alerts/Flow (Attacks): 103
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 3365
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.442579
+
+[1000+CONSERVATIVE]
+Active Rules: 17
+Removed SIDs: None
+Detection Rate (PCAPs): 0.195876
+Raw Alerts (Attacks): 3365
+Diff Alerts/Flow (Attacks): 103
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 3365
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.442579
+
+[AGRESIVE PRUNING]
+Active Rules: 17
+Removed SIDs: None
+Detection Rate (PCAPs): 0.195876
+Raw Alerts (Attacks): 3365
+Diff Alerts/Flow (Attacks): 103
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 3365
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.442579
+

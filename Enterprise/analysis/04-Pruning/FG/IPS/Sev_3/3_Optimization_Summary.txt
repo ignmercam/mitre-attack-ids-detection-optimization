@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: FG | Track: IPS | Base Severity >= 3
+
+[PRUNING 500]
+Active IDs: 97
+Removed IDs: 12090, 33106, 43796, 43799, 43963
+Detection Rate (PCAPs): 0.436364
+Raw Alerts (Attacks): 319246
+Diff Alerts/Flow (Attacks): 318404
+Raw Alerts (Legitimate): 197
+Diff Alerts/Flow (Legitimate): 195
+Raw Alerts (Total): 319443
+Usability (FP_Alerts/TP_Alerts): 0.0006
+G-Mean: 0.660577
+
+[PRUNING 1000]
+Active IDs: 97
+Removed IDs: 12090, 33106, 43796, 43799, 43963
+Detection Rate (PCAPs): 0.436364
+Raw Alerts (Attacks): 319246
+Diff Alerts/Flow (Attacks): 318404
+Raw Alerts (Legitimate): 197
+Diff Alerts/Flow (Legitimate): 195
+Raw Alerts (Total): 319443
+Usability (FP_Alerts/TP_Alerts): 0.0006
+G-Mean: 0.660577
+
+[CONSERVATIVE PRUNING]
+Active IDs: 96
+Removed IDs: 17717, 30703, 32447, 40774, 42781, 45650
+Detection Rate (PCAPs): 0.472727
+Raw Alerts (Attacks): 319274
+Diff Alerts/Flow (Attacks): 318431
+Raw Alerts (Legitimate): 4416842
+Diff Alerts/Flow (Legitimate): 4395871
+Raw Alerts (Total): 4736116
+Usability (FP_Alerts/TP_Alerts): 13.834
+G-Mean: 0.668074
+
+[500+CONSERVATIVE]
+Active IDs: 91
+Removed IDs: 12090, 17717, 30703, 32447, 33106, 40774, 42781, 43796, 43799, 43963, 45650
+Detection Rate (PCAPs): 0.436364
+Raw Alerts (Attacks): 319246
+Diff Alerts/Flow (Attacks): 318404
+Raw Alerts (Legitimate): 15
+Diff Alerts/Flow (Legitimate): 15
+Raw Alerts (Total): 319261
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.660578
+
+[1000+CONSERVATIVE]
+Active IDs: 91
+Removed IDs: 12090, 17717, 30703, 32447, 33106, 40774, 42781, 43796, 43799, 43963, 45650
+Detection Rate (PCAPs): 0.436364
+Raw Alerts (Attacks): 319246
+Diff Alerts/Flow (Attacks): 318404
+Raw Alerts (Legitimate): 15
+Diff Alerts/Flow (Legitimate): 15
+Raw Alerts (Total): 319261
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.660578
+
+[AGRESIVE PRUNING]
+Active IDs: 92
+Removed IDs: 17717, 30703, 32447, 33106, 40774, 42781, 43796, 43799, 43963, 45650
+Detection Rate (PCAPs): 0.454545
+Raw Alerts (Attacks): 319253
+Diff Alerts/Flow (Attacks): 318411
+Raw Alerts (Legitimate): 22419
+Diff Alerts/Flow (Legitimate): 21860
+Raw Alerts (Total): 341672
+Usability (FP_Alerts/TP_Alerts): 0.0702
+G-Mean: 0.674106
+

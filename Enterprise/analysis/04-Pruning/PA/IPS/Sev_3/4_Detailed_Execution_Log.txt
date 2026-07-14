@@ -1,0 +1,21 @@
+=== START GM OPTIMIZATION - Engine: PA | Track: IPS | Sev >= 3 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 58 | GM: 0.495432
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID RPC -> GM: 0.495433
+  [+] IMPROVEMENT FOUND: Removed ID RPC. New GM: 0.495433
+
+Iteration 2:
+  Evaluating ID Metasploit -> GM: 0.486172
+  [-] No improvement. Keeping ID Metasploit.
+
+Iteration 3:
+  Evaluating ID Microsoft -> GM: 0.486172
+  [-] No improvement. Keeping ID Microsoft.
+
+=== FINAL SUMMARY ===
+Final Active IDs: 57
+Final GM Optimal: 0.495433

@@ -1,0 +1,146 @@
+=== START GM OPTIMIZATION - RS9 (Priority <= 2) ===
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating SID 20 -> GM: 0.946070
+  [+] IMPROVEMENT FOUND: Removed SID 20. New GM: 0.946070
+
+Iteration 2:
+  Evaluating SID 2002749 -> GM: 0.954346
+  [+] IMPROVEMENT FOUND: Removed SID 2002749. New GM: 0.954346
+
+Iteration 3:
+  Evaluating SID 2002752 -> GM: 0.840207
+  [-] No improvement. Keeping SID 2002752.
+
+Iteration 4:
+  Evaluating SID 2054218 -> GM: 0.956435
+  [+] IMPROVEMENT FOUND: Removed SID 2054218. New GM: 0.956435
+
+Iteration 5:
+  Evaluating SID 12 -> GM: 0.957638
+  [+] IMPROVEMENT FOUND: Removed SID 12. New GM: 0.957638
+
+Iteration 6:
+  Evaluating SID 14 -> GM: 0.957758
+  [+] IMPROVEMENT FOUND: Removed SID 14. New GM: 0.957758
+
+Iteration 7:
+  Evaluating SID 15 -> GM: 0.952499
+  [-] No improvement. Keeping SID 15.
+
+Iteration 8:
+  Evaluating SID 2022218 -> GM: 0.957799
+  [+] IMPROVEMENT FOUND: Removed SID 2022218. New GM: 0.957799
+
+Iteration 9:
+  Evaluating SID 2003595 -> GM: 0.957822
+  [+] IMPROVEMENT FOUND: Removed SID 2003595. New GM: 0.957822
+
+Iteration 10:
+  Evaluating SID 2006408 -> GM: 0.957834
+  [+] IMPROVEMENT FOUND: Removed SID 2006408. New GM: 0.957834
+
+Iteration 11:
+  Evaluating SID 254 -> GM: 0.957849
+  [+] IMPROVEMENT FOUND: Removed SID 254. New GM: 0.957849
+
+Iteration 12:
+  Evaluating SID 59597 -> GM: 0.957864
+  [+] IMPROVEMENT FOUND: Removed SID 59597. New GM: 0.957864
+
+Iteration 13:
+  Evaluating SID 1 -> GM: 0.957876
+  [+] IMPROVEMENT FOUND: Removed SID 1. New GM: 0.957876
+
+Iteration 14:
+  Evaluating SID 2100527 -> GM: 0.952550
+  [-] No improvement. Keeping SID 2100527.
+
+Iteration 15:
+  Evaluating SID 50447 -> GM: 0.957883
+  [+] IMPROVEMENT FOUND: Removed SID 50447. New GM: 0.957883
+
+Iteration 16:
+  Evaluating SID 2006409 -> GM: 0.957891
+  [+] IMPROVEMENT FOUND: Removed SID 2006409. New GM: 0.957891
+
+Iteration 17:
+  Evaluating SID 2100615 -> GM: 0.957897
+  [+] IMPROVEMENT FOUND: Removed SID 2100615. New GM: 0.957897
+
+Iteration 18:
+  Evaluating SID 2101418 -> GM: 0.957902
+  [+] IMPROVEMENT FOUND: Removed SID 2101418. New GM: 0.957902
+
+Iteration 19:
+  Evaluating SID 29456 -> GM: 0.957905
+  [+] IMPROVEMENT FOUND: Removed SID 29456. New GM: 0.957905
+
+Iteration 20:
+  Evaluating SID 2009080 -> GM: 0.957908
+  [+] IMPROVEMENT FOUND: Removed SID 2009080. New GM: 0.957908
+
+Iteration 21:
+  Evaluating SID 2018959 -> GM: 0.957911
+  [+] IMPROVEMENT FOUND: Removed SID 2018959. New GM: 0.957911
+
+Iteration 22:
+  Evaluating SID 2009768 -> GM: 0.957913
+  [+] IMPROVEMENT FOUND: Removed SID 2009768. New GM: 0.957913
+
+Iteration 23:
+  Evaluating SID 2010935 -> GM: 0.957915
+  [+] IMPROVEMENT FOUND: Removed SID 2010935. New GM: 0.957915
+
+Iteration 24:
+  Evaluating SID 2010936 -> GM: 0.957917
+  [+] IMPROVEMENT FOUND: Removed SID 2010936. New GM: 0.957917
+
+Iteration 25:
+  Evaluating SID 2010937 -> GM: 0.957919
+  [+] IMPROVEMENT FOUND: Removed SID 2010937. New GM: 0.957919
+
+Iteration 26:
+  Evaluating SID 57756 -> GM: 0.957921
+  [+] IMPROVEMENT FOUND: Removed SID 57756. New GM: 0.957921
+
+Iteration 27:
+  Evaluating SID 31767 -> GM: 0.957921
+  [+] IMPROVEMENT FOUND: Removed SID 31767. New GM: 0.957921
+
+Iteration 28:
+  Evaluating SID 2009205 -> GM: 0.957921
+  [-] No improvement. Keeping SID 2009205.
+
+Iteration 29:
+  Evaluating SID 2009207 -> GM: 0.957921
+  [-] No improvement. Keeping SID 2009207.
+
+Iteration 30:
+  Evaluating SID 2101620 -> GM: 0.957922
+  [+] IMPROVEMENT FOUND: Removed SID 2101620. New GM: 0.957922
+
+Iteration 31:
+  Evaluating SID 2009206 -> GM: 0.957922
+  [-] No improvement. Keeping SID 2009206.
+
+Iteration 32:
+  Evaluating SID 2009208 -> GM: 0.957922
+  [-] No improvement. Keeping SID 2009208.
+
+Iteration 33:
+  Evaluating SID 15306 -> GM: 0.957923
+  [+] IMPROVEMENT FOUND: Removed SID 15306. New GM: 0.957923
+
+Iteration 34:
+  Evaluating SID 2002910 -> GM: 0.957923
+  [+] IMPROVEMENT FOUND: Removed SID 2002910. New GM: 0.957923
+
+Iteration 35:
+  Evaluating SID 2003099 -> GM: 0.957923
+  [+] IMPROVEMENT FOUND: Removed SID 2003099. New GM: 0.957923
+
+=== FINAL SUMMARY ===
+Final Active SIDs: 133
+Final GM Optimal: 0.957923

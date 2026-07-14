@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: FG | Track: IPS | Base Severity >= 2
+
+[PRUNING 500]
+Active IDs: 144
+Removed IDs: 12090, 33106, 43796, 43799, 43963, 47173
+Detection Rate (PCAPs): 0.545455
+Raw Alerts (Attacks): 656919
+Diff Alerts/Flow (Attacks): 655780
+Raw Alerts (Legitimate): 1913
+Diff Alerts/Flow (Legitimate): 1725
+Raw Alerts (Total): 658832
+Usability (FP_Alerts/TP_Alerts): 0.0029
+G-Mean: 0.738541
+
+[PRUNING 1000]
+Active IDs: 144
+Removed IDs: 12090, 33106, 43796, 43799, 43963, 47173
+Detection Rate (PCAPs): 0.545455
+Raw Alerts (Attacks): 656919
+Diff Alerts/Flow (Attacks): 655780
+Raw Alerts (Legitimate): 1913
+Diff Alerts/Flow (Legitimate): 1725
+Raw Alerts (Total): 658832
+Usability (FP_Alerts/TP_Alerts): 0.0029
+G-Mean: 0.738541
+
+[CONSERVATIVE PRUNING]
+Active IDs: 135
+Removed IDs: 10328, 12766, 17714, 17717, 30703, 32447, 40774, 42781, 44135, 45650, 47173, 48805, 107937801, 108658691, 294191108
+Detection Rate (PCAPs): 0.581818
+Raw Alerts (Attacks): 656947
+Diff Alerts/Flow (Attacks): 655807
+Raw Alerts (Legitimate): 4417981
+Diff Alerts/Flow (Legitimate): 4396827
+Raw Alerts (Total): 5074928
+Usability (FP_Alerts/TP_Alerts): 6.725
+G-Mean: 0.741157
+
+[500+CONSERVATIVE]
+Active IDs: 130
+Removed IDs: 10328, 12090, 12766, 17714, 17717, 30703, 32447, 33106, 40774, 42781, 43796, 43799, 43963, 44135, 45650, 47173, 48805, 107937801, 108658691, 294191108
+Detection Rate (PCAPs): 0.545455
+Raw Alerts (Attacks): 656919
+Diff Alerts/Flow (Attacks): 655780
+Raw Alerts (Legitimate): 1154
+Diff Alerts/Flow (Legitimate): 971
+Raw Alerts (Total): 658073
+Usability (FP_Alerts/TP_Alerts): 0.0018
+G-Mean: 0.738544
+
+[1000+CONSERVATIVE]
+Active IDs: 130
+Removed IDs: 10328, 12090, 12766, 17714, 17717, 30703, 32447, 33106, 40774, 42781, 43796, 43799, 43963, 44135, 45650, 47173, 48805, 107937801, 108658691, 294191108
+Detection Rate (PCAPs): 0.545455
+Raw Alerts (Attacks): 656919
+Diff Alerts/Flow (Attacks): 655780
+Raw Alerts (Legitimate): 1154
+Diff Alerts/Flow (Legitimate): 971
+Raw Alerts (Total): 658073
+Usability (FP_Alerts/TP_Alerts): 0.0018
+G-Mean: 0.738544
+
+[AGRESIVE PRUNING]
+Active IDs: 129
+Removed IDs: 10328, 12766, 17714, 17717, 30703, 32447, 33106, 40774, 42781, 43796, 43799, 43963, 44135, 45360, 45650, 47173, 48805, 107937801, 108658691, 110034945, 294191108
+Detection Rate (PCAPs): 0.563636
+Raw Alerts (Attacks): 656903
+Diff Alerts/Flow (Attacks): 655768
+Raw Alerts (Legitimate): 22783
+Diff Alerts/Flow (Legitimate): 22223
+Raw Alerts (Total): 679686
+Usability (FP_Alerts/TP_Alerts): 0.0347
+G-Mean: 0.750651
+

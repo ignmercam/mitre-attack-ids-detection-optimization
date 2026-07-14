@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: IPS | Base Severity >= 1
+
+[PRUNING 500]
+Active IDs: 26
+Removed IDs: 9999, SSL, Suspicious
+Detection Rate (PCAPs): 0.546392
+Raw Alerts (Attacks): 417
+Diff Alerts/Flow (Attacks): 170
+Raw Alerts (Legitimate): 193
+Diff Alerts/Flow (Legitimate): 186
+Raw Alerts (Total): 610
+Usability (FP_Alerts/TP_Alerts): 0.4628
+G-Mean: 0.739128
+
+[PRUNING 1000]
+Active IDs: 27
+Removed IDs: 9999, Suspicious
+Detection Rate (PCAPs): 0.546392
+Raw Alerts (Attacks): 417
+Diff Alerts/Flow (Attacks): 170
+Raw Alerts (Legitimate): 781
+Diff Alerts/Flow (Legitimate): 774
+Raw Alerts (Total): 1198
+Usability (FP_Alerts/TP_Alerts): 1.8729
+G-Mean: 0.738943
+
+[CONSERVATIVE PRUNING]
+Active IDs: 26
+Removed IDs: 109020002, SSH, SSL
+Detection Rate (PCAPs): 0.577320
+Raw Alerts (Attacks): 940
+Diff Alerts/Flow (Attacks): 693
+Raw Alerts (Legitimate): 202580
+Diff Alerts/Flow (Legitimate): 194391
+Raw Alerts (Total): 203520
+Usability (FP_Alerts/TP_Alerts): 215.5106
+G-Mean: 0.696031
+
+[500+CONSERVATIVE]
+Active IDs: 24
+Removed IDs: 9999, 109020002, SSH, SSL, Suspicious
+Detection Rate (PCAPs): 0.546392
+Raw Alerts (Attacks): 417
+Diff Alerts/Flow (Attacks): 170
+Raw Alerts (Legitimate): 179
+Diff Alerts/Flow (Legitimate): 172
+Raw Alerts (Total): 596
+Usability (FP_Alerts/TP_Alerts): 0.4293
+G-Mean: 0.739131
+
+[1000+CONSERVATIVE]
+Active IDs: 24
+Removed IDs: 9999, 109020002, SSH, SSL, Suspicious
+Detection Rate (PCAPs): 0.546392
+Raw Alerts (Attacks): 417
+Diff Alerts/Flow (Attacks): 170
+Raw Alerts (Legitimate): 179
+Diff Alerts/Flow (Legitimate): 172
+Raw Alerts (Total): 596
+Usability (FP_Alerts/TP_Alerts): 0.4293
+G-Mean: 0.739131
+
+[AGRESIVE PRUNING]
+Active IDs: 22
+Removed IDs: 9999, 109020002, HTTP, NetBIOS, SSH, SSL, Suspicious
+Detection Rate (PCAPs): 0.546392
+Raw Alerts (Attacks): 407
+Diff Alerts/Flow (Attacks): 160
+Raw Alerts (Legitimate): 173
+Diff Alerts/Flow (Legitimate): 166
+Raw Alerts (Total): 580
+Usability (FP_Alerts/TP_Alerts): 0.4251
+G-Mean: 0.739133
+

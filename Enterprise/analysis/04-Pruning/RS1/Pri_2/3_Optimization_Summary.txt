@@ -1,0 +1,77 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Ruleset: RS1
+Scenario: Priority <= 2
+Method: External CSV Ordered Backward Elimination + Static Pruning
+
+[PRUNING 500]
+Active Rules: 16
+Removed SIDs: 1, 5, 12, 14, 15, 19, 20, 28, 42944
+Detection Rate (PCAPs): 0.100000
+Raw Alerts (Attacks): 367
+Diff Alerts/Flow (Attacks): 87
+Raw Alerts (Legitimate): 969
+Diff Alerts/Flow (Legitimate): 657
+Raw Alerts (Total): 1336
+Usability (FP_Alerts/TP_Alerts): 2.6403
+G-Mean: 0.316226
+
+[PRUNING 1000]
+Active Rules: 16
+Removed SIDs: 1, 5, 12, 14, 15, 19, 20, 28, 42944
+Detection Rate (PCAPs): 0.100000
+Raw Alerts (Attacks): 367
+Diff Alerts/Flow (Attacks): 87
+Raw Alerts (Legitimate): 969
+Diff Alerts/Flow (Legitimate): 657
+Raw Alerts (Total): 1336
+Usability (FP_Alerts/TP_Alerts): 2.6403
+G-Mean: 0.316226
+
+[CONSERVATIVE PRUNING]
+Active Rules: 20
+Removed SIDs: 2, 18, 26, 28, 34799
+Detection Rate (PCAPs): 0.645455
+Raw Alerts (Attacks): 35137
+Diff Alerts/Flow (Attacks): 12783
+Raw Alerts (Legitimate): 2856161
+Diff Alerts/Flow (Legitimate): 1736416
+Raw Alerts (Total): 2891298
+Usability (FP_Alerts/TP_Alerts): 81.2864
+G-Mean: 0.794754
+
+[500+CONSERVATIVE]
+Active Rules: 12
+Removed SIDs: 1, 2, 5, 12, 14, 15, 18, 19, 20, 26, 28, 34799, 42944
+Detection Rate (PCAPs): 0.100000
+Raw Alerts (Attacks): 367
+Diff Alerts/Flow (Attacks): 87
+Raw Alerts (Legitimate): 438
+Diff Alerts/Flow (Legitimate): 128
+Raw Alerts (Total): 805
+Usability (FP_Alerts/TP_Alerts): 1.1935
+G-Mean: 0.316228
+
+[1000+CONSERVATIVE]
+Active Rules: 12
+Removed SIDs: 1, 2, 5, 12, 14, 15, 18, 19, 20, 26, 28, 34799, 42944
+Detection Rate (PCAPs): 0.100000
+Raw Alerts (Attacks): 367
+Diff Alerts/Flow (Attacks): 87
+Raw Alerts (Legitimate): 438
+Diff Alerts/Flow (Legitimate): 128
+Raw Alerts (Total): 805
+Usability (FP_Alerts/TP_Alerts): 1.1935
+G-Mean: 0.316228
+
+[AGRESIVE PRUNING]
+Active Rules: 16
+Removed SIDs: 1, 2, 7, 18, 19, 26, 28, 34799, 42944
+Detection Rate (PCAPs): 0.645455
+Raw Alerts (Attacks): 35106
+Diff Alerts/Flow (Attacks): 12763
+Raw Alerts (Legitimate): 2829816
+Diff Alerts/Flow (Legitimate): 1713560
+Raw Alerts (Total): 2864922
+Usability (FP_Alerts/TP_Alerts): 80.6078
+G-Mean: 0.794825
+

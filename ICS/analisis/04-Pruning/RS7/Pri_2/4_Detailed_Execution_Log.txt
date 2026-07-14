@@ -1,0 +1,6 @@
+=== START GM OPTIMIZATION - RS7 (Priority <= 2) ===
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+=== FINAL SUMMARY ===
+Final Active SIDs: 17
+Final GM Optimal: 0.442579

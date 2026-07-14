@@ -1,0 +1,33 @@
+=== START GM OPTIMIZATION - Engine: FG | Track: IPS | Sev >= 3 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 96 | GM: 0.668074
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID 33106 -> GM: 0.672569
+  [+] IMPROVEMENT FOUND: Removed ID 33106. New GM: 0.672569
+
+Iteration 2:
+  Evaluating ID 43963 -> GM: 0.673342
+  [+] IMPROVEMENT FOUND: Removed ID 43963. New GM: 0.673342
+
+Iteration 3:
+  Evaluating ID 43799 -> GM: 0.674078
+  [+] IMPROVEMENT FOUND: Removed ID 43799. New GM: 0.674078
+
+Iteration 4:
+  Evaluating ID 12090 -> GM: 0.660550
+  [-] No improvement. Keeping ID 12090.
+
+Iteration 5:
+  Evaluating ID 43796 -> GM: 0.674106
+  [+] IMPROVEMENT FOUND: Removed ID 43796. New GM: 0.674106
+
+Iteration 6:
+  Evaluating ID 35662 -> GM: 0.617829
+  [-] No improvement. Keeping ID 35662.
+
+=== FINAL SUMMARY ===
+Final Active IDs: 92
+Final GM Optimal: 0.674106

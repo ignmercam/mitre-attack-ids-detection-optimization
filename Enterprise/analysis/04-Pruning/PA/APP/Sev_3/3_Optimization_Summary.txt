@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: APP | Base Severity >= 3
+
+[PRUNING 500]
+Active IDs: 71
+Removed IDs: RPC, SIPVicious, dns-base, portmapper, sip
+Detection Rate (PCAPs): 0.618182
+Raw Alerts (Attacks): 3992993
+Diff Alerts/Flow (Attacks): 2507979
+Raw Alerts (Legitimate): 104
+Diff Alerts/Flow (Legitimate): 104
+Raw Alerts (Total): 3993097
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.786245
+
+[PRUNING 1000]
+Active IDs: 73
+Removed IDs: SIPVicious, dns-base, sip
+Detection Rate (PCAPs): 0.618182
+Raw Alerts (Attacks): 3992994
+Diff Alerts/Flow (Attacks): 2507981
+Raw Alerts (Legitimate): 628
+Diff Alerts/Flow (Legitimate): 1152
+Raw Alerts (Total): 3993622
+Usability (FP_Alerts/TP_Alerts): 0.0002
+G-Mean: 0.786242
+
+[CONSERVATIVE PRUNING]
+Active IDs: 72
+Removed IDs: Netis/Netcore, SIPVicious, ZeroAccess.Gen, sip
+Detection Rate (PCAPs): 0.618182
+Raw Alerts (Attacks): 3992994
+Diff Alerts/Flow (Attacks): 2507989
+Raw Alerts (Legitimate): 1786
+Diff Alerts/Flow (Legitimate): 2310
+Raw Alerts (Total): 3994780
+Usability (FP_Alerts/TP_Alerts): 0.0004
+G-Mean: 0.786236
+
+[500+CONSERVATIVE]
+Active IDs: 69
+Removed IDs: Netis/Netcore, RPC, SIPVicious, ZeroAccess.Gen, dns-base, portmapper, sip
+Detection Rate (PCAPs): 0.618182
+Raw Alerts (Attacks): 3992993
+Diff Alerts/Flow (Attacks): 2507979
+Raw Alerts (Legitimate): 76
+Diff Alerts/Flow (Legitimate): 76
+Raw Alerts (Total): 3993069
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.786245
+
+[1000+CONSERVATIVE]
+Active IDs: 71
+Removed IDs: Netis/Netcore, SIPVicious, ZeroAccess.Gen, dns-base, sip
+Detection Rate (PCAPs): 0.618182
+Raw Alerts (Attacks): 3992994
+Diff Alerts/Flow (Attacks): 2507981
+Raw Alerts (Legitimate): 600
+Diff Alerts/Flow (Legitimate): 1124
+Raw Alerts (Total): 3993594
+Usability (FP_Alerts/TP_Alerts): 0.0002
+G-Mean: 0.786242
+
+[AGRESIVE PRUNING]
+Active IDs: 70
+Removed IDs: Netis/Netcore, SIPVicious, ZeroAccess.Gen, dns-base, ms-ds-smb-base, sip
+Detection Rate (PCAPs): 0.618182
+Raw Alerts (Attacks): 3992992
+Diff Alerts/Flow (Attacks): 2507979
+Raw Alerts (Legitimate): 596
+Diff Alerts/Flow (Legitimate): 1121
+Raw Alerts (Total): 3993588
+Usability (FP_Alerts/TP_Alerts): 0.0001
+G-Mean: 0.786242
+

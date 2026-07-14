@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: APP | Base Severity >= 4
+
+[PRUNING 500]
+Active IDs: 49
+Removed IDs: sip
+Detection Rate (PCAPs): 0.527273
+Raw Alerts (Attacks): 3992948
+Diff Alerts/Flow (Attacks): 2507822
+Raw Alerts (Legitimate): 32
+Diff Alerts/Flow (Legitimate): 32
+Raw Alerts (Total): 3992980
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.726135
+
+[PRUNING 1000]
+Active IDs: 49
+Removed IDs: sip
+Detection Rate (PCAPs): 0.527273
+Raw Alerts (Attacks): 3992948
+Diff Alerts/Flow (Attacks): 2507822
+Raw Alerts (Legitimate): 32
+Diff Alerts/Flow (Legitimate): 32
+Raw Alerts (Total): 3992980
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.726135
+
+[CONSERVATIVE PRUNING]
+Active IDs: 47
+Removed IDs: Netis/Netcore, ZeroAccess.Gen, sip
+Detection Rate (PCAPs): 0.527273
+Raw Alerts (Attacks): 3992948
+Diff Alerts/Flow (Attacks): 2507822
+Raw Alerts (Legitimate): 4
+Diff Alerts/Flow (Legitimate): 4
+Raw Alerts (Total): 3992952
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.726135
+
+[500+CONSERVATIVE]
+Active IDs: 47
+Removed IDs: Netis/Netcore, ZeroAccess.Gen, sip
+Detection Rate (PCAPs): 0.527273
+Raw Alerts (Attacks): 3992948
+Diff Alerts/Flow (Attacks): 2507822
+Raw Alerts (Legitimate): 4
+Diff Alerts/Flow (Legitimate): 4
+Raw Alerts (Total): 3992952
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.726135
+
+[1000+CONSERVATIVE]
+Active IDs: 47
+Removed IDs: Netis/Netcore, ZeroAccess.Gen, sip
+Detection Rate (PCAPs): 0.527273
+Raw Alerts (Attacks): 3992948
+Diff Alerts/Flow (Attacks): 2507822
+Raw Alerts (Legitimate): 4
+Diff Alerts/Flow (Legitimate): 4
+Raw Alerts (Total): 3992952
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.726135
+
+[AGRESIVE PRUNING]
+Active IDs: 47
+Removed IDs: Netis/Netcore, ZeroAccess.Gen, sip
+Detection Rate (PCAPs): 0.527273
+Raw Alerts (Attacks): 3992948
+Diff Alerts/Flow (Attacks): 2507822
+Raw Alerts (Legitimate): 4
+Diff Alerts/Flow (Legitimate): 4
+Raw Alerts (Total): 3992952
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.726135
+

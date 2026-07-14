@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: FG | Track: IPS | Base Severity >= 3
+
+[PRUNING 500]
+Active IDs: 16
+Removed IDs: 35662
+Detection Rate (PCAPs): 0.103093
+Raw Alerts (Attacks): 27
+Diff Alerts/Flow (Attacks): 20
+Raw Alerts (Legitimate): 2
+Diff Alerts/Flow (Legitimate): 2
+Raw Alerts (Total): 29
+Usability (FP_Alerts/TP_Alerts): 0.0741
+G-Mean: 0.321080
+
+[PRUNING 1000]
+Active IDs: 16
+Removed IDs: 35662
+Detection Rate (PCAPs): 0.103093
+Raw Alerts (Attacks): 27
+Diff Alerts/Flow (Attacks): 20
+Raw Alerts (Legitimate): 2
+Diff Alerts/Flow (Legitimate): 2
+Raw Alerts (Total): 29
+Usability (FP_Alerts/TP_Alerts): 0.0741
+G-Mean: 0.321080
+
+[CONSERVATIVE PRUNING]
+Active IDs: 15
+Removed IDs: 33106, 35662
+Detection Rate (PCAPs): 0.103093
+Raw Alerts (Attacks): 27
+Diff Alerts/Flow (Attacks): 20
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 27
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.321081
+
+[500+CONSERVATIVE]
+Active IDs: 15
+Removed IDs: 33106, 35662
+Detection Rate (PCAPs): 0.103093
+Raw Alerts (Attacks): 27
+Diff Alerts/Flow (Attacks): 20
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 27
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.321081
+
+[1000+CONSERVATIVE]
+Active IDs: 15
+Removed IDs: 33106, 35662
+Detection Rate (PCAPs): 0.103093
+Raw Alerts (Attacks): 27
+Diff Alerts/Flow (Attacks): 20
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 27
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.321081
+
+[AGRESIVE PRUNING]
+Active IDs: 15
+Removed IDs: 33106, 35662
+Detection Rate (PCAPs): 0.103093
+Raw Alerts (Attacks): 27
+Diff Alerts/Flow (Attacks): 20
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 27
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.321081
+

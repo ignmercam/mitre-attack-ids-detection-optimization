@@ -1,0 +1,77 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Ruleset: RS2
+Scenario: Priority <= 1
+Method: External CSV Ordered Backward Elimination + Static Pruning
+
+[PRUNING 500]
+Active Rules: 104
+Removed SIDs: 2025649, 2025650, 2025992, 2102924
+Detection Rate (PCAPs): 0.336364
+Raw Alerts (Attacks): 7234
+Diff Alerts/Flow (Attacks): 1220
+Raw Alerts (Legitimate): 346
+Diff Alerts/Flow (Legitimate): 346
+Raw Alerts (Total): 7580
+Usability (FP_Alerts/TP_Alerts): 0.0478
+G-Mean: 0.579967
+
+[PRUNING 1000]
+Active Rules: 104
+Removed SIDs: 2025649, 2025650, 2025992, 2102924
+Detection Rate (PCAPs): 0.336364
+Raw Alerts (Attacks): 7234
+Diff Alerts/Flow (Attacks): 1220
+Raw Alerts (Legitimate): 346
+Diff Alerts/Flow (Legitimate): 346
+Raw Alerts (Total): 7580
+Usability (FP_Alerts/TP_Alerts): 0.0478
+G-Mean: 0.579967
+
+[CONSERVATIVE PRUNING]
+Active Rules: 99
+Removed SIDs: 2009099, 2012252, 2012647, 2015856, 2018585, 2021195, 2024217, 2029575, 2102924
+Detection Rate (PCAPs): 0.336364
+Raw Alerts (Attacks): 7237
+Diff Alerts/Flow (Attacks): 1223
+Raw Alerts (Legitimate): 336653
+Diff Alerts/Flow (Legitimate): 336609
+Raw Alerts (Total): 343890
+Usability (FP_Alerts/TP_Alerts): 46.5183
+G-Mean: 0.579352
+
+[500+CONSERVATIVE]
+Active Rules: 96
+Removed SIDs: 2009099, 2012252, 2012647, 2015856, 2018585, 2021195, 2024217, 2025649, 2025650, 2025992, 2029575, 2102924
+Detection Rate (PCAPs): 0.336364
+Raw Alerts (Attacks): 7234
+Diff Alerts/Flow (Attacks): 1220
+Raw Alerts (Legitimate): 27
+Diff Alerts/Flow (Legitimate): 27
+Raw Alerts (Total): 7261
+Usability (FP_Alerts/TP_Alerts): 0.0037
+G-Mean: 0.579969
+
+[1000+CONSERVATIVE]
+Active Rules: 96
+Removed SIDs: 2009099, 2012252, 2012647, 2015856, 2018585, 2021195, 2024217, 2025649, 2025650, 2025992, 2029575, 2102924
+Detection Rate (PCAPs): 0.336364
+Raw Alerts (Attacks): 7234
+Diff Alerts/Flow (Attacks): 1220
+Raw Alerts (Legitimate): 27
+Diff Alerts/Flow (Legitimate): 27
+Raw Alerts (Total): 7261
+Usability (FP_Alerts/TP_Alerts): 0.0037
+G-Mean: 0.579969
+
+[AGRESIVE PRUNING]
+Active Rules: 97
+Removed SIDs: 2009099, 2012252, 2012647, 2015856, 2018585, 2021195, 2024217, 2024297, 2025650, 2029575, 2102924
+Detection Rate (PCAPs): 0.336364
+Raw Alerts (Attacks): 7235
+Diff Alerts/Flow (Attacks): 1221
+Raw Alerts (Legitimate): 334606
+Diff Alerts/Flow (Legitimate): 334562
+Raw Alerts (Total): 341841
+Usability (FP_Alerts/TP_Alerts): 46.2482
+G-Mean: 0.579352
+

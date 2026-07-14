@@ -1,0 +1,77 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Ruleset: RS4
+Scenario: Priority <= 2
+Method: External CSV Ordered Backward Elimination + Static Pruning
+
+[PRUNING 500]
+Active Rules: 61
+Removed SIDs: 12, 20, 33654
+Detection Rate (PCAPs): 0.391753
+Raw Alerts (Attacks): 3364
+Diff Alerts/Flow (Attacks): 1144
+Raw Alerts (Legitimate): 4899
+Diff Alerts/Flow (Legitimate): 660
+Raw Alerts (Total): 8263
+Usability (FP_Alerts/TP_Alerts): 1.4563
+G-Mean: 0.625732
+
+[PRUNING 1000]
+Active Rules: 61
+Removed SIDs: 12, 20, 33654
+Detection Rate (PCAPs): 0.391753
+Raw Alerts (Attacks): 3364
+Diff Alerts/Flow (Attacks): 1144
+Raw Alerts (Legitimate): 4899
+Diff Alerts/Flow (Legitimate): 660
+Raw Alerts (Total): 8263
+Usability (FP_Alerts/TP_Alerts): 1.4563
+G-Mean: 0.625732
+
+[CONSERVATIVE PRUNING]
+Active Rules: 55
+Removed SIDs: 4, 649, 1325, 1923, 11192, 16014, 24094, 33654, 57878
+Detection Rate (PCAPs): 0.649485
+Raw Alerts (Attacks): 19388
+Diff Alerts/Flow (Attacks): 11487
+Raw Alerts (Legitimate): 466111
+Diff Alerts/Flow (Legitimate): 59710
+Raw Alerts (Total): 485499
+Usability (FP_Alerts/TP_Alerts): 24.0412
+G-Mean: 0.785309
+
+[500+CONSERVATIVE]
+Active Rules: 53
+Removed SIDs: 4, 12, 20, 649, 1325, 1923, 11192, 16014, 24094, 33654, 57878
+Detection Rate (PCAPs): 0.391753
+Raw Alerts (Attacks): 3364
+Diff Alerts/Flow (Attacks): 1144
+Raw Alerts (Legitimate): 4695
+Diff Alerts/Flow (Legitimate): 646
+Raw Alerts (Total): 8059
+Usability (FP_Alerts/TP_Alerts): 1.3957
+G-Mean: 0.625735
+
+[1000+CONSERVATIVE]
+Active Rules: 53
+Removed SIDs: 4, 12, 20, 649, 1325, 1923, 11192, 16014, 24094, 33654, 57878
+Detection Rate (PCAPs): 0.391753
+Raw Alerts (Attacks): 3364
+Diff Alerts/Flow (Attacks): 1144
+Raw Alerts (Legitimate): 4695
+Diff Alerts/Flow (Legitimate): 646
+Raw Alerts (Total): 8059
+Usability (FP_Alerts/TP_Alerts): 1.3957
+G-Mean: 0.625735
+
+[AGRESIVE PRUNING]
+Active Rules: 45
+Removed SIDs: 1, 4, 14, 20, 254, 649, 1325, 1923, 11192, 15306, 16014, 24094, 29456, 31767, 33654, 50447, 57756, 57878, 59597
+Detection Rate (PCAPs): 0.649485
+Raw Alerts (Attacks): 4998
+Diff Alerts/Flow (Attacks): 4242
+Raw Alerts (Legitimate): 242331
+Diff Alerts/Flow (Legitimate): 3223
+Raw Alerts (Total): 247329
+Usability (FP_Alerts/TP_Alerts): 48.4856
+G-Mean: 0.804808
+

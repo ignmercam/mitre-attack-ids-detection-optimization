@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: APP | Base Severity >= 1
+
+[PRUNING 500]
+Active IDs: 102
+Removed IDs: DNS, ISF, Microsoft, RPC, SIPVicious, dns-base, portmapper, sip, snmpv1-get-request
+Detection Rate (PCAPs): 0.681818
+Raw Alerts (Attacks): 3993090
+Diff Alerts/Flow (Attacks): 5046609
+Raw Alerts (Legitimate): 1635
+Diff Alerts/Flow (Legitimate): 1766
+Raw Alerts (Total): 3994725
+Usability (FP_Alerts/TP_Alerts): 0.0004
+G-Mean: 0.825716
+
+[PRUNING 1000]
+Active IDs: 105
+Removed IDs: ISF, Microsoft, SIPVicious, dns-base, sip, snmpv1-get-request
+Detection Rate (PCAPs): 0.681818
+Raw Alerts (Attacks): 3993091
+Diff Alerts/Flow (Attacks): 5046611
+Raw Alerts (Legitimate): 3137
+Diff Alerts/Flow (Legitimate): 3792
+Raw Alerts (Total): 3996228
+Usability (FP_Alerts/TP_Alerts): 0.0008
+G-Mean: 0.825708
+
+[CONSERVATIVE PRUNING]
+Active IDs: 97
+Removed IDs: 1, 109010003, DNS, Netis/Netcore, SIP, SIPVicious, ZeroAccess.Gen, gtp-u, gtpv1-c, sip, snmpv2-get-request, ssdp, unknown-udp, upnp
+Detection Rate (PCAPs): 0.690909
+Raw Alerts (Attacks): 3993092
+Diff Alerts/Flow (Attacks): 5046652
+Raw Alerts (Legitimate): 6750
+Diff Alerts/Flow (Legitimate): 8593
+Raw Alerts (Total): 3999842
+Usability (FP_Alerts/TP_Alerts): 0.0017
+G-Mean: 0.831174
+
+[500+CONSERVATIVE]
+Active IDs: 91
+Removed IDs: 1, 109010003, DNS, ISF, Microsoft, Netis/Netcore, RPC, SIP, SIPVicious, ZeroAccess.Gen, dns-base, gtp-u, gtpv1-c, portmapper, sip, snmpv1-get-request, snmpv2-get-request, ssdp, unknown-udp, upnp
+Detection Rate (PCAPs): 0.681818
+Raw Alerts (Attacks): 3993090
+Diff Alerts/Flow (Attacks): 5046609
+Raw Alerts (Legitimate): 450
+Diff Alerts/Flow (Legitimate): 437
+Raw Alerts (Total): 3993540
+Usability (FP_Alerts/TP_Alerts): 0.0001
+G-Mean: 0.825721
+
+[1000+CONSERVATIVE]
+Active IDs: 93
+Removed IDs: 1, 109010003, DNS, ISF, Microsoft, Netis/Netcore, SIP, SIPVicious, ZeroAccess.Gen, dns-base, gtp-u, gtpv1-c, sip, snmpv1-get-request, snmpv2-get-request, ssdp, unknown-udp, upnp
+Detection Rate (PCAPs): 0.681818
+Raw Alerts (Attacks): 3993091
+Diff Alerts/Flow (Attacks): 5046611
+Raw Alerts (Legitimate): 974
+Diff Alerts/Flow (Legitimate): 1485
+Raw Alerts (Total): 3994065
+Usability (FP_Alerts/TP_Alerts): 0.0002
+G-Mean: 0.825718
+
+[AGRESIVE PRUNING]
+Active IDs: 89
+Removed IDs: 1, 109010003, DNS, ISF, Metasploit, Microsoft, Netis/Netcore, Non-RFC, SIP, SIPVicious, ZeroAccess.Gen, dns-base, gtp-u, gtpv1-c, incomplete, ms-ds-smb-base, ms-ds-smbv1, sip, snmpv2-get-request, ssdp, unknown-udp, upnp
+Detection Rate (PCAPs): 0.690909
+Raw Alerts (Attacks): 3993086
+Diff Alerts/Flow (Attacks): 5046552
+Raw Alerts (Legitimate): 1870
+Diff Alerts/Flow (Legitimate): 2398
+Raw Alerts (Total): 3994956
+Usability (FP_Alerts/TP_Alerts): 0.0005
+G-Mean: 0.831200
+

@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: IPS | Base Severity >= 3
+
+[PRUNING 500]
+Active IDs: 14
+Removed IDs: None
+Detection Rate (PCAPs): 0.134021
+Raw Alerts (Attacks): 47
+Diff Alerts/Flow (Attacks): 22
+Raw Alerts (Legitimate): 20
+Diff Alerts/Flow (Legitimate): 20
+Raw Alerts (Total): 67
+Usability (FP_Alerts/TP_Alerts): 0.4255
+G-Mean: 0.366085
+
+[PRUNING 1000]
+Active IDs: 14
+Removed IDs: None
+Detection Rate (PCAPs): 0.134021
+Raw Alerts (Attacks): 47
+Diff Alerts/Flow (Attacks): 22
+Raw Alerts (Legitimate): 20
+Diff Alerts/Flow (Legitimate): 20
+Raw Alerts (Total): 67
+Usability (FP_Alerts/TP_Alerts): 0.4255
+G-Mean: 0.366085
+
+[CONSERVATIVE PRUNING]
+Active IDs: 12
+Removed IDs: SCADA, SSH
+Detection Rate (PCAPs): 0.134021
+Raw Alerts (Attacks): 47
+Diff Alerts/Flow (Attacks): 22
+Raw Alerts (Legitimate): 5
+Diff Alerts/Flow (Legitimate): 5
+Raw Alerts (Total): 52
+Usability (FP_Alerts/TP_Alerts): 0.1064
+G-Mean: 0.366087
+
+[500+CONSERVATIVE]
+Active IDs: 12
+Removed IDs: SCADA, SSH
+Detection Rate (PCAPs): 0.134021
+Raw Alerts (Attacks): 47
+Diff Alerts/Flow (Attacks): 22
+Raw Alerts (Legitimate): 5
+Diff Alerts/Flow (Legitimate): 5
+Raw Alerts (Total): 52
+Usability (FP_Alerts/TP_Alerts): 0.1064
+G-Mean: 0.366087
+
+[1000+CONSERVATIVE]
+Active IDs: 12
+Removed IDs: SCADA, SSH
+Detection Rate (PCAPs): 0.134021
+Raw Alerts (Attacks): 47
+Diff Alerts/Flow (Attacks): 22
+Raw Alerts (Legitimate): 5
+Diff Alerts/Flow (Legitimate): 5
+Raw Alerts (Total): 52
+Usability (FP_Alerts/TP_Alerts): 0.1064
+G-Mean: 0.366087
+
+[AGRESIVE PRUNING]
+Active IDs: 12
+Removed IDs: SCADA, SSH
+Detection Rate (PCAPs): 0.134021
+Raw Alerts (Attacks): 47
+Diff Alerts/Flow (Attacks): 22
+Raw Alerts (Legitimate): 5
+Diff Alerts/Flow (Legitimate): 5
+Raw Alerts (Total): 52
+Usability (FP_Alerts/TP_Alerts): 0.1064
+G-Mean: 0.366087
+

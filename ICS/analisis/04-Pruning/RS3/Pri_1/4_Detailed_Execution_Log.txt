@@ -1,0 +1,10 @@
+=== START GM OPTIMIZATION - RS3 (Priority <= 1) ===
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating SID 2018959 -> GM: 0.379908
+  [+] IMPROVEMENT FOUND: Removed SID 2018959. New GM: 0.379908
+
+=== FINAL SUMMARY ===
+Final Active SIDs: 22
+Final GM Optimal: 0.379908

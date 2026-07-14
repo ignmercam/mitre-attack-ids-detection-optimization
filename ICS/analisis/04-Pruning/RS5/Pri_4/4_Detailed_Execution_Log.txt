@@ -1,0 +1,138 @@
+=== START GM OPTIMIZATION - RS5 (Priority <= 4) ===
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating SID 2002749 -> GM: 0.943910
+  [-] No improvement. Keeping SID 2002749.
+
+Iteration 2:
+  Evaluating SID 2002752 -> GM: 0.946314
+  [+] IMPROVEMENT FOUND: Removed SID 2002752. New GM: 0.946314
+
+Iteration 3:
+  Evaluating SID 2054218 -> GM: 0.949527
+  [+] IMPROVEMENT FOUND: Removed SID 2054218. New GM: 0.949527
+
+Iteration 4:
+  Evaluating SID 2031491 -> GM: 0.949591
+  [+] IMPROVEMENT FOUND: Removed SID 2031491. New GM: 0.949591
+
+Iteration 5:
+  Evaluating SID 2022218 -> GM: 0.949602
+  [+] IMPROVEMENT FOUND: Removed SID 2022218. New GM: 0.949602
+
+Iteration 6:
+  Evaluating SID 2003595 -> GM: 0.949609
+  [+] IMPROVEMENT FOUND: Removed SID 2003595. New GM: 0.949609
+
+Iteration 7:
+  Evaluating SID 2006408 -> GM: 0.949624
+  [+] IMPROVEMENT FOUND: Removed SID 2006408. New GM: 0.949624
+
+Iteration 8:
+  Evaluating SID 2100408 -> GM: 0.949625
+  [+] IMPROVEMENT FOUND: Removed SID 2100408. New GM: 0.949625
+
+Iteration 9:
+  Evaluating SID 2100527 -> GM: 0.944345
+  [-] No improvement. Keeping SID 2100527.
+
+Iteration 10:
+  Evaluating SID 2100384 -> GM: 0.949627
+  [+] IMPROVEMENT FOUND: Removed SID 2100384. New GM: 0.949627
+
+Iteration 11:
+  Evaluating SID 2006409 -> GM: 0.949635
+  [+] IMPROVEMENT FOUND: Removed SID 2006409. New GM: 0.949635
+
+Iteration 12:
+  Evaluating SID 2100615 -> GM: 0.949641
+  [+] IMPROVEMENT FOUND: Removed SID 2100615. New GM: 0.949641
+
+Iteration 13:
+  Evaluating SID 2101418 -> GM: 0.949646
+  [+] IMPROVEMENT FOUND: Removed SID 2101418. New GM: 0.949646
+
+Iteration 14:
+  Evaluating SID 2009080 -> GM: 0.949647
+  [+] IMPROVEMENT FOUND: Removed SID 2009080. New GM: 0.949647
+
+Iteration 15:
+  Evaluating SID 2018959 -> GM: 0.949647
+  [-] No improvement. Keeping SID 2018959.
+
+Iteration 16:
+  Evaluating SID 2100402 -> GM: 0.949648
+  [+] IMPROVEMENT FOUND: Removed SID 2100402. New GM: 0.949648
+
+Iteration 17:
+  Evaluating SID 2100366 -> GM: 0.949649
+  [+] IMPROVEMENT FOUND: Removed SID 2100366. New GM: 0.949649
+
+Iteration 18:
+  Evaluating SID 2009768 -> GM: 0.949649
+  [-] No improvement. Keeping SID 2009768.
+
+Iteration 19:
+  Evaluating SID 2013491 -> GM: 0.949649
+  [+] IMPROVEMENT FOUND: Removed SID 2013491. New GM: 0.949649
+
+Iteration 20:
+  Evaluating SID 2010935 -> GM: 0.949651
+  [+] IMPROVEMENT FOUND: Removed SID 2010935. New GM: 0.949651
+
+Iteration 21:
+  Evaluating SID 2100382 -> GM: 0.949652
+  [+] IMPROVEMENT FOUND: Removed SID 2100382. New GM: 0.949652
+
+Iteration 22:
+  Evaluating SID 2010936 -> GM: 0.949654
+  [+] IMPROVEMENT FOUND: Removed SID 2010936. New GM: 0.949654
+
+Iteration 23:
+  Evaluating SID 2013490 -> GM: 0.949654
+  [-] No improvement. Keeping SID 2013490.
+
+Iteration 24:
+  Evaluating SID 2010937 -> GM: 0.949656
+  [+] IMPROVEMENT FOUND: Removed SID 2010937. New GM: 0.949656
+
+Iteration 25:
+  Evaluating SID 2100560 -> GM: 0.949657
+  [+] IMPROVEMENT FOUND: Removed SID 2100560. New GM: 0.949657
+
+Iteration 26:
+  Evaluating SID 2009205 -> GM: 0.949657
+  [-] No improvement. Keeping SID 2009205.
+
+Iteration 27:
+  Evaluating SID 2009207 -> GM: 0.949657
+  [-] No improvement. Keeping SID 2009207.
+
+Iteration 28:
+  Evaluating SID 2101620 -> GM: 0.949658
+  [+] IMPROVEMENT FOUND: Removed SID 2101620. New GM: 0.949658
+
+Iteration 29:
+  Evaluating SID 2009206 -> GM: 0.949658
+  [-] No improvement. Keeping SID 2009206.
+
+Iteration 30:
+  Evaluating SID 2100368 -> GM: 0.949658
+  [+] IMPROVEMENT FOUND: Removed SID 2100368. New GM: 0.949658
+
+Iteration 31:
+  Evaluating SID 2009208 -> GM: 0.949658
+  [-] No improvement. Keeping SID 2009208.
+
+Iteration 32:
+  Evaluating SID 2002910 -> GM: 0.949658
+  [+] IMPROVEMENT FOUND: Removed SID 2002910. New GM: 0.949658
+
+Iteration 33:
+  Evaluating SID 2003099 -> GM: 0.949658
+  [-] No improvement. Keeping SID 2003099.
+
+=== FINAL SUMMARY ===
+Final Active SIDs: 99
+Final GM Optimal: 0.949658

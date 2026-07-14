@@ -1,0 +1,106 @@
+=== START GM OPTIMIZATION - RS4 (Priority <= 3) ===
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating SID 18 -> GM: 0.924290
+  [-] No improvement. Keeping SID 18.
+
+Iteration 2:
+  Evaluating SID 3 -> GM: 0.924293
+  [+] IMPROVEMENT FOUND: Removed SID 3. New GM: 0.924293
+
+Iteration 3:
+  Evaluating SID 20 -> GM: 0.924297
+  [+] IMPROVEMENT FOUND: Removed SID 20. New GM: 0.924297
+
+Iteration 4:
+  Evaluating SID 33 -> GM: 0.924298
+  [+] IMPROVEMENT FOUND: Removed SID 33. New GM: 0.924298
+
+Iteration 5:
+  Evaluating SID 12 -> GM: 0.876844
+  [-] No improvement. Keeping SID 12.
+
+Iteration 6:
+  Evaluating SID 14 -> GM: 0.924298
+  [-] No improvement. Keeping SID 14.
+
+Iteration 7:
+  Evaluating SID 15 -> GM: 0.913736
+  [-] No improvement. Keeping SID 15.
+
+Iteration 8:
+  Evaluating SID 1917 -> GM: 0.924319
+  [+] IMPROVEMENT FOUND: Removed SID 1917. New GM: 0.924319
+
+Iteration 9:
+  Evaluating SID 254 -> GM: 0.924334
+  [+] IMPROVEMENT FOUND: Removed SID 254. New GM: 0.924334
+
+Iteration 10:
+  Evaluating SID 59597 -> GM: 0.924334
+  [-] No improvement. Keeping SID 59597.
+
+Iteration 11:
+  Evaluating SID 1 -> GM: 0.924347
+  [+] IMPROVEMENT FOUND: Removed SID 1. New GM: 0.924347
+
+Iteration 12:
+  Evaluating SID 50447 -> GM: 0.924355
+  [+] IMPROVEMENT FOUND: Removed SID 50447. New GM: 0.924355
+
+Iteration 13:
+  Evaluating SID 17790 -> GM: 0.897713
+  [-] No improvement. Keeping SID 17790.
+
+Iteration 14:
+  Evaluating SID 29456 -> GM: 0.924355
+  [-] No improvement. Keeping SID 29456.
+
+Iteration 15:
+  Evaluating SID 384 -> GM: 0.919088
+  [-] No improvement. Keeping SID 384.
+
+Iteration 16:
+  Evaluating SID 408 -> GM: 0.924355
+  [-] No improvement. Keeping SID 408.
+
+Iteration 17:
+  Evaluating SID 399 -> GM: 0.919090
+  [-] No improvement. Keeping SID 399.
+
+Iteration 18:
+  Evaluating SID 366 -> GM: 0.924355
+  [-] No improvement. Keeping SID 366.
+
+Iteration 19:
+  Evaluating SID 24303 -> GM: 0.919090
+  [-] No improvement. Keeping SID 24303.
+
+Iteration 20:
+  Evaluating SID 57756 -> GM: 0.924357
+  [+] IMPROVEMENT FOUND: Removed SID 57756. New GM: 0.924357
+
+Iteration 21:
+  Evaluating SID 31767 -> GM: 0.924357
+  [-] No improvement. Keeping SID 31767.
+
+Iteration 22:
+  Evaluating SID 402 -> GM: 0.919090
+  [-] No improvement. Keeping SID 402.
+
+Iteration 23:
+  Evaluating SID 15306 -> GM: 0.924357
+  [+] IMPROVEMENT FOUND: Removed SID 15306. New GM: 0.924357
+
+Iteration 24:
+  Evaluating SID 382 -> GM: 0.924357
+  [-] No improvement. Keeping SID 382.
+
+Iteration 25:
+  Evaluating SID 368 -> GM: 0.924357
+  [-] No improvement. Keeping SID 368.
+
+=== FINAL SUMMARY ===
+Final Active SIDs: 165
+Final GM Optimal: 0.924357

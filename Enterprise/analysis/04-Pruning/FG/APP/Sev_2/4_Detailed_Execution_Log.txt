@@ -1,0 +1,189 @@
+=== START GM OPTIMIZATION - Engine: FG | Track: APP | Sev >= 2 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 197 | GM: 0.863840
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID 16195 -> GM: 0.921202
+  [+] IMPROVEMENT FOUND: Removed ID 16195. New GM: 0.921202
+
+Iteration 2:
+  Evaluating ID 15511 -> GM: 0.921203
+  [+] IMPROVEMENT FOUND: Removed ID 15511. New GM: 0.921203
+
+Iteration 3:
+  Evaluating ID 33106 -> GM: 0.947024
+  [+] IMPROVEMENT FOUND: Removed ID 33106. New GM: 0.947024
+
+Iteration 4:
+  Evaluating ID 15895 -> GM: 0.957682
+  [+] IMPROVEMENT FOUND: Removed ID 15895. New GM: 0.957682
+
+Iteration 5:
+  Evaluating ID 15893 -> GM: 0.960204
+  [+] IMPROVEMENT FOUND: Removed ID 15893. New GM: 0.960204
+
+Iteration 6:
+  Evaluating ID 27457 -> GM: 0.960212
+  [+] IMPROVEMENT FOUND: Removed ID 27457. New GM: 0.960212
+
+Iteration 7:
+  Evaluating ID 44611 -> GM: 0.962861
+  [+] IMPROVEMENT FOUND: Removed ID 44611. New GM: 0.962861
+
+Iteration 8:
+  Evaluating ID 43963 -> GM: 0.963972
+  [+] IMPROVEMENT FOUND: Removed ID 43963. New GM: 0.963972
+
+Iteration 9:
+  Evaluating ID 43799 -> GM: 0.965031
+  [+] IMPROVEMENT FOUND: Removed ID 43799. New GM: 0.965031
+
+Iteration 10:
+  Evaluating ID 34050 -> GM: 0.956500
+  [-] No improvement. Keeping ID 34050.
+
+Iteration 11:
+  Evaluating ID 31755 -> GM: 0.965564
+  [+] IMPROVEMENT FOUND: Removed ID 31755. New GM: 0.965564
+
+Iteration 12:
+  Evaluating ID 41469 -> GM: 0.961181
+  [-] No improvement. Keeping ID 41469.
+
+Iteration 13:
+  Evaluating ID 16321 -> GM: 0.965719
+  [+] IMPROVEMENT FOUND: Removed ID 16321. New GM: 0.965719
+
+Iteration 14:
+  Evaluating ID 10000483 -> GM: 0.965723
+  [+] IMPROVEMENT FOUND: Removed ID 10000483. New GM: 0.965723
+
+Iteration 15:
+  Evaluating ID 12090 -> GM: 0.965836
+  [+] IMPROVEMENT FOUND: Removed ID 12090. New GM: 0.965836
+
+Iteration 16:
+  Evaluating ID 24466 -> GM: 0.961264
+  [-] No improvement. Keeping ID 24466.
+
+Iteration 17:
+  Evaluating ID 16270 -> GM: 0.965914
+  [+] IMPROVEMENT FOUND: Removed ID 16270. New GM: 0.965914
+
+Iteration 18:
+  Evaluating ID 17017 -> GM: 0.965994
+  [+] IMPROVEMENT FOUND: Removed ID 17017. New GM: 0.965994
+
+Iteration 19:
+  Evaluating ID 16250 -> GM: 0.966062
+  [+] IMPROVEMENT FOUND: Removed ID 16250. New GM: 0.966062
+
+Iteration 20:
+  Evaluating ID 16083 -> GM: 0.966118
+  [+] IMPROVEMENT FOUND: Removed ID 16083. New GM: 0.966118
+
+Iteration 21:
+  Evaluating ID 15897 -> GM: 0.966169
+  [+] IMPROVEMENT FOUND: Removed ID 15897. New GM: 0.966169
+
+Iteration 22:
+  Evaluating ID 28198 -> GM: 0.966217
+  [+] IMPROVEMENT FOUND: Removed ID 28198. New GM: 0.966217
+
+Iteration 23:
+  Evaluating ID 43796 -> GM: 0.966257
+  [+] IMPROVEMENT FOUND: Removed ID 43796. New GM: 0.966257
+
+Iteration 24:
+  Evaluating ID 44623 -> GM: 0.956851
+  [-] No improvement. Keeping ID 44623.
+
+Iteration 25:
+  Evaluating ID 34789 -> GM: 0.966268
+  [+] IMPROVEMENT FOUND: Removed ID 34789. New GM: 0.966268
+
+Iteration 26:
+  Evaluating ID 40169 -> GM: 0.966278
+  [+] IMPROVEMENT FOUND: Removed ID 40169. New GM: 0.966278
+
+Iteration 27:
+  Evaluating ID 17136 -> GM: 0.966284
+  [+] IMPROVEMENT FOUND: Removed ID 17136. New GM: 0.966284
+
+Iteration 28:
+  Evaluating ID 16206 -> GM: 0.947337
+  [-] No improvement. Keeping ID 16206.
+
+Iteration 29:
+  Evaluating ID 16267 -> GM: 0.966288
+  [+] IMPROVEMENT FOUND: Removed ID 16267. New GM: 0.966288
+
+Iteration 30:
+  Evaluating ID 45360 -> GM: 0.966290
+  [+] IMPROVEMENT FOUND: Removed ID 45360. New GM: 0.966290
+
+Iteration 31:
+  Evaluating ID 32609 -> GM: 0.966291
+  [+] IMPROVEMENT FOUND: Removed ID 32609. New GM: 0.966291
+
+Iteration 32:
+  Evaluating ID 43814 -> GM: 0.961591
+  [-] No improvement. Keeping ID 43814.
+
+Iteration 33:
+  Evaluating ID 34795 -> GM: 0.961590
+  [-] No improvement. Keeping ID 34795.
+
+Iteration 34:
+  Evaluating ID 110034945 -> GM: 0.966292
+  [+] IMPROVEMENT FOUND: Removed ID 110034945. New GM: 0.966292
+
+Iteration 35:
+  Evaluating ID 44624 -> GM: 0.966292
+  [+] IMPROVEMENT FOUND: Removed ID 44624. New GM: 0.966292
+
+Iteration 36:
+  Evaluating ID 34039 -> GM: 0.961591
+  [-] No improvement. Keeping ID 34039.
+
+Iteration 37:
+  Evaluating ID 16173 -> GM: 0.966293
+  [+] IMPROVEMENT FOUND: Removed ID 16173. New GM: 0.966293
+
+Iteration 38:
+  Evaluating ID 16265 -> GM: 0.961591
+  [-] No improvement. Keeping ID 16265.
+
+Iteration 39:
+  Evaluating ID 16060 -> GM: 0.966293
+  [+] IMPROVEMENT FOUND: Removed ID 16060. New GM: 0.966293
+
+Iteration 40:
+  Evaluating ID 35662 -> GM: 0.952117
+  [-] No improvement. Keeping ID 35662.
+
+Iteration 41:
+  Evaluating ID 107937798 -> GM: 0.956865
+  [-] No improvement. Keeping ID 107937798.
+
+Iteration 42:
+  Evaluating ID 11767 -> GM: 0.966293
+  [+] IMPROVEMENT FOUND: Removed ID 11767. New GM: 0.966293
+
+Iteration 43:
+  Evaluating ID 17011 -> GM: 0.952117
+  [-] No improvement. Keeping ID 17011.
+
+Iteration 44:
+  Evaluating ID 12525 -> GM: 0.966293
+  [+] IMPROVEMENT FOUND: Removed ID 12525. New GM: 0.966293
+
+Iteration 45:
+  Evaluating ID 34038 -> GM: 0.966293
+  [+] IMPROVEMENT FOUND: Removed ID 34038. New GM: 0.966293
+
+=== FINAL SUMMARY ===
+Final Active IDs: 164
+Final GM Optimal: 0.966293

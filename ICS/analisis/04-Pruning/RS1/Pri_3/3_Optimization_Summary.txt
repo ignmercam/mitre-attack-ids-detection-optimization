@@ -1,0 +1,77 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Ruleset: RS1
+Scenario: Priority <= 3
+Method: External CSV Ordered Backward Elimination + Static Pruning
+
+[PRUNING 500]
+Active Rules: 17
+Removed SIDs: 3, 18, 20, 33
+Detection Rate (PCAPs): 0.618557
+Raw Alerts (Attacks): 17004
+Diff Alerts/Flow (Attacks): 16194
+Raw Alerts (Legitimate): 229856
+Diff Alerts/Flow (Legitimate): 748
+Raw Alerts (Total): 246860
+Usability (FP_Alerts/TP_Alerts): 13.5178
+G-Mean: 0.786262
+
+[PRUNING 1000]
+Active Rules: 17
+Removed SIDs: 3, 18, 20, 33
+Detection Rate (PCAPs): 0.618557
+Raw Alerts (Attacks): 17004
+Diff Alerts/Flow (Attacks): 16194
+Raw Alerts (Legitimate): 229856
+Diff Alerts/Flow (Legitimate): 748
+Raw Alerts (Total): 246860
+Usability (FP_Alerts/TP_Alerts): 13.5178
+G-Mean: 0.786262
+
+[CONSERVATIVE PRUNING]
+Active Rules: 20
+Removed SIDs: 4
+Detection Rate (PCAPs): 0.618557
+Raw Alerts (Attacks): 29351
+Diff Alerts/Flow (Attacks): 22806
+Raw Alerts (Legitimate): 1273297
+Diff Alerts/Flow (Legitimate): 196018
+Raw Alerts (Total): 1302648
+Usability (FP_Alerts/TP_Alerts): 43.3817
+G-Mean: 0.764425
+
+[500+CONSERVATIVE]
+Active Rules: 16
+Removed SIDs: 3, 4, 18, 20, 33
+Detection Rate (PCAPs): 0.618557
+Raw Alerts (Attacks): 17004
+Diff Alerts/Flow (Attacks): 16194
+Raw Alerts (Legitimate): 229676
+Diff Alerts/Flow (Legitimate): 746
+Raw Alerts (Total): 246680
+Usability (FP_Alerts/TP_Alerts): 13.5072
+G-Mean: 0.786262
+
+[1000+CONSERVATIVE]
+Active Rules: 16
+Removed SIDs: 3, 4, 18, 20, 33
+Detection Rate (PCAPs): 0.618557
+Raw Alerts (Attacks): 17004
+Diff Alerts/Flow (Attacks): 16194
+Raw Alerts (Legitimate): 229676
+Diff Alerts/Flow (Legitimate): 746
+Raw Alerts (Total): 246680
+Usability (FP_Alerts/TP_Alerts): 13.5072
+G-Mean: 0.786262
+
+[AGRESIVE PRUNING]
+Active Rules: 17
+Removed SIDs: 3, 4, 20, 33
+Detection Rate (PCAPs): 0.618557
+Raw Alerts (Attacks): 17058
+Diff Alerts/Flow (Attacks): 16220
+Raw Alerts (Legitimate): 921329
+Diff Alerts/Flow (Legitimate): 65917
+Raw Alerts (Total): 938387
+Usability (FP_Alerts/TP_Alerts): 54.0115
+G-Mean: 0.764429
+

@@ -1,0 +1,41 @@
+=== START GM OPTIMIZATION - Engine: PA | Track: IPS | Sev >= 1 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 26 | GM: 0.696031
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID 9999 -> GM: 0.737704
+  [+] IMPROVEMENT FOUND: Removed ID 9999. New GM: 0.737704
+
+Iteration 2:
+  Evaluating ID Suspicious -> GM: 0.739131
+  [+] IMPROVEMENT FOUND: Removed ID Suspicious. New GM: 0.739131
+
+Iteration 3:
+  Evaluating ID TLS -> GM: 0.732163
+  [-] No improvement. Keeping ID TLS.
+
+Iteration 4:
+  Evaluating ID 2 -> GM: 0.732134
+  [-] No improvement. Keeping ID 2.
+
+Iteration 5:
+  Evaluating ID SCADA -> GM: 0.565282
+  [-] No improvement. Keeping ID SCADA.
+
+Iteration 6:
+  Evaluating ID Modbus -> GM: 0.739131
+  [-] No improvement. Keeping ID Modbus.
+
+Iteration 7:
+  Evaluating ID NetBIOS -> GM: 0.739132
+  [+] IMPROVEMENT FOUND: Removed ID NetBIOS. New GM: 0.739132
+
+Iteration 8:
+  Evaluating ID HTTP -> GM: 0.739133
+  [+] IMPROVEMENT FOUND: Removed ID HTTP. New GM: 0.739133
+
+=== FINAL SUMMARY ===
+Final Active IDs: 22
+Final GM Optimal: 0.739133

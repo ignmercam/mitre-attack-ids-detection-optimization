@@ -1,0 +1,45 @@
+=== START GM OPTIMIZATION - Engine: PA | Track: APP | Sev >= 2 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 84 | GM: 0.814623
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID snmpv1-get-request -> GM: 0.809031
+  [-] No improvement. Keeping ID snmpv1-get-request.
+
+Iteration 2:
+  Evaluating ID dns-base -> GM: 0.814629
+  [+] IMPROVEMENT FOUND: Removed ID dns-base. New GM: 0.814629
+
+Iteration 3:
+  Evaluating ID RPC -> GM: 0.814629
+  [-] No improvement. Keeping ID RPC.
+
+Iteration 4:
+  Evaluating ID portmapper -> GM: 0.814629
+  [-] No improvement. Keeping ID portmapper.
+
+Iteration 5:
+  Evaluating ID Metasploit -> GM: 0.809030
+  [-] No improvement. Keeping ID Metasploit.
+
+Iteration 6:
+  Evaluating ID ssl -> GM: 0.797714
+  [-] No improvement. Keeping ID ssl.
+
+Iteration 7:
+  Evaluating ID ms-ds-smb-base -> GM: 0.814629
+  [+] IMPROVEMENT FOUND: Removed ID ms-ds-smb-base. New GM: 0.814629
+
+Iteration 8:
+  Evaluating ID ms-ds-smbv1 -> GM: 0.814629
+  [-] No improvement. Keeping ID ms-ds-smbv1.
+
+Iteration 9:
+  Evaluating ID Microsoft -> GM: 0.814629
+  [-] No improvement. Keeping ID Microsoft.
+
+=== FINAL SUMMARY ===
+Final Active IDs: 82
+Final GM Optimal: 0.814629

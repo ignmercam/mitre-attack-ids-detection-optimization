@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: APP | Base Severity >= 2
+
+[PRUNING 500]
+Active IDs: 85
+Removed IDs: RPC, SIPVicious, dns-base, portmapper, sip, snmpv1-get-request
+Detection Rate (PCAPs): 0.654545
+Raw Alerts (Attacks): 3993015
+Diff Alerts/Flow (Attacks): 2508021
+Raw Alerts (Legitimate): 162
+Diff Alerts/Flow (Legitimate): 152
+Raw Alerts (Total): 3993177
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.809039
+
+[PRUNING 1000]
+Active IDs: 87
+Removed IDs: SIPVicious, dns-base, sip, snmpv1-get-request
+Detection Rate (PCAPs): 0.654545
+Raw Alerts (Attacks): 3993016
+Diff Alerts/Flow (Attacks): 2508023
+Raw Alerts (Legitimate): 686
+Diff Alerts/Flow (Legitimate): 1200
+Raw Alerts (Total): 3993702
+Usability (FP_Alerts/TP_Alerts): 0.0002
+G-Mean: 0.809036
+
+[CONSERVATIVE PRUNING]
+Active IDs: 84
+Removed IDs: DNS, Netis/Netcore, SIPVicious, ZeroAccess.Gen, sip, snmpv2-get-request, upnp
+Detection Rate (PCAPs): 0.663636
+Raw Alerts (Attacks): 3993017
+Diff Alerts/Flow (Attacks): 2508032
+Raw Alerts (Legitimate): 3106
+Diff Alerts/Flow (Legitimate): 3630
+Raw Alerts (Total): 3996123
+Usability (FP_Alerts/TP_Alerts): 0.0008
+G-Mean: 0.814623
+
+[500+CONSERVATIVE]
+Active IDs: 80
+Removed IDs: DNS, Netis/Netcore, RPC, SIPVicious, ZeroAccess.Gen, dns-base, portmapper, sip, snmpv1-get-request, snmpv2-get-request, upnp
+Detection Rate (PCAPs): 0.654545
+Raw Alerts (Attacks): 3993015
+Diff Alerts/Flow (Attacks): 2508021
+Raw Alerts (Legitimate): 76
+Diff Alerts/Flow (Legitimate): 76
+Raw Alerts (Total): 3993091
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.809039
+
+[1000+CONSERVATIVE]
+Active IDs: 82
+Removed IDs: DNS, Netis/Netcore, SIPVicious, ZeroAccess.Gen, dns-base, sip, snmpv1-get-request, snmpv2-get-request, upnp
+Detection Rate (PCAPs): 0.654545
+Raw Alerts (Attacks): 3993016
+Diff Alerts/Flow (Attacks): 2508023
+Raw Alerts (Legitimate): 600
+Diff Alerts/Flow (Legitimate): 1124
+Raw Alerts (Total): 3993616
+Usability (FP_Alerts/TP_Alerts): 0.0002
+G-Mean: 0.809037
+
+[AGRESIVE PRUNING]
+Active IDs: 82
+Removed IDs: DNS, Netis/Netcore, SIPVicious, ZeroAccess.Gen, dns-base, ms-ds-smb-base, sip, snmpv2-get-request, upnp
+Detection Rate (PCAPs): 0.663636
+Raw Alerts (Attacks): 3993015
+Diff Alerts/Flow (Attacks): 2508022
+Raw Alerts (Legitimate): 1916
+Diff Alerts/Flow (Legitimate): 2441
+Raw Alerts (Total): 3994931
+Usability (FP_Alerts/TP_Alerts): 0.0005
+G-Mean: 0.814629
+

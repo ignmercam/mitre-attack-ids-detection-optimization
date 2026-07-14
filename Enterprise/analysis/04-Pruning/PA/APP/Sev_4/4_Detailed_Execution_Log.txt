@@ -1,0 +1,13 @@
+=== START GM OPTIMIZATION - Engine: PA | Track: APP | Sev >= 4 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 47 | GM: 0.726135
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID ssl -> GM: 0.700649
+  [-] No improvement. Keeping ID ssl.
+
+=== FINAL SUMMARY ===
+Final Active IDs: 47
+Final GM Optimal: 0.726135

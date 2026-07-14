@@ -1,0 +1,77 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Ruleset: RS4
+Scenario: Priority <= 1
+Method: External CSV Ordered Backward Elimination + Static Pruning
+
+[PRUNING 500]
+Active Rules: 39
+Removed SIDs: None
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 852
+Diff Alerts/Flow (Attacks): 801
+Raw Alerts (Legitimate): 128
+Diff Alerts/Flow (Legitimate): 72
+Raw Alerts (Total): 980
+Usability (FP_Alerts/TP_Alerts): 0.1502
+G-Mean: 0.507658
+
+[PRUNING 1000]
+Active Rules: 39
+Removed SIDs: None
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 852
+Diff Alerts/Flow (Attacks): 801
+Raw Alerts (Legitimate): 128
+Diff Alerts/Flow (Legitimate): 72
+Raw Alerts (Total): 980
+Usability (FP_Alerts/TP_Alerts): 0.1502
+G-Mean: 0.507658
+
+[CONSERVATIVE PRUNING]
+Active Rules: 35
+Removed SIDs: 1325, 11192, 24094, 57878
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 852
+Diff Alerts/Flow (Attacks): 801
+Raw Alerts (Legitimate): 120
+Diff Alerts/Flow (Legitimate): 64
+Raw Alerts (Total): 972
+Usability (FP_Alerts/TP_Alerts): 0.1408
+G-Mean: 0.507659
+
+[500+CONSERVATIVE]
+Active Rules: 35
+Removed SIDs: 1325, 11192, 24094, 57878
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 852
+Diff Alerts/Flow (Attacks): 801
+Raw Alerts (Legitimate): 120
+Diff Alerts/Flow (Legitimate): 64
+Raw Alerts (Total): 972
+Usability (FP_Alerts/TP_Alerts): 0.1408
+G-Mean: 0.507659
+
+[1000+CONSERVATIVE]
+Active Rules: 35
+Removed SIDs: 1325, 11192, 24094, 57878
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 852
+Diff Alerts/Flow (Attacks): 801
+Raw Alerts (Legitimate): 120
+Diff Alerts/Flow (Legitimate): 64
+Raw Alerts (Total): 972
+Usability (FP_Alerts/TP_Alerts): 0.1408
+G-Mean: 0.507659
+
+[AGRESIVE PRUNING]
+Active Rules: 32
+Removed SIDs: 1325, 11192, 15306, 24094, 57756, 57878, 59597
+Detection Rate (PCAPs): 0.257732
+Raw Alerts (Attacks): 837
+Diff Alerts/Flow (Attacks): 789
+Raw Alerts (Legitimate): 77
+Diff Alerts/Flow (Legitimate): 22
+Raw Alerts (Total): 914
+Usability (FP_Alerts/TP_Alerts): 0.092
+G-Mean: 0.507668
+

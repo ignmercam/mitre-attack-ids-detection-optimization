@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: APP | Base Severity >= 4
+
+[PRUNING 500]
+Active IDs: 12
+Removed IDs: google-base, ssl, web-browsing
+Detection Rate (PCAPs): 0.061856
+Raw Alerts (Attacks): 9
+Diff Alerts/Flow (Attacks): 8
+Raw Alerts (Legitimate): 466
+Diff Alerts/Flow (Legitimate): 387
+Raw Alerts (Total): 475
+Usability (FP_Alerts/TP_Alerts): 51.7778
+G-Mean: 0.248669
+
+[PRUNING 1000]
+Active IDs: 13
+Removed IDs: ssl, web-browsing
+Detection Rate (PCAPs): 0.061856
+Raw Alerts (Attacks): 9
+Diff Alerts/Flow (Attacks): 8
+Raw Alerts (Legitimate): 1135
+Diff Alerts/Flow (Legitimate): 959
+Raw Alerts (Total): 1144
+Usability (FP_Alerts/TP_Alerts): 126.1111
+G-Mean: 0.248608
+
+[CONSERVATIVE PRUNING]
+Active IDs: 10
+Removed IDs: SCADA, SSH, google-base, ms-update, netbios-ns
+Detection Rate (PCAPs): 0.175258
+Raw Alerts (Attacks): 544
+Diff Alerts/Flow (Attacks): 530
+Raw Alerts (Legitimate): 201319
+Diff Alerts/Flow (Legitimate): 188193
+Raw Alerts (Total): 201863
+Usability (FP_Alerts/TP_Alerts): 370.0717
+G-Mean: 0.383792
+
+[500+CONSERVATIVE]
+Active IDs: 8
+Removed IDs: SCADA, SSH, google-base, ms-update, netbios-ns, ssl, web-browsing
+Detection Rate (PCAPs): 0.061856
+Raw Alerts (Attacks): 9
+Diff Alerts/Flow (Attacks): 8
+Raw Alerts (Legitimate): 43
+Diff Alerts/Flow (Legitimate): 39
+Raw Alerts (Total): 52
+Usability (FP_Alerts/TP_Alerts): 4.7778
+G-Mean: 0.248704
+
+[1000+CONSERVATIVE]
+Active IDs: 8
+Removed IDs: SCADA, SSH, google-base, ms-update, netbios-ns, ssl, web-browsing
+Detection Rate (PCAPs): 0.061856
+Raw Alerts (Attacks): 9
+Diff Alerts/Flow (Attacks): 8
+Raw Alerts (Legitimate): 43
+Diff Alerts/Flow (Legitimate): 39
+Raw Alerts (Total): 52
+Usability (FP_Alerts/TP_Alerts): 4.7778
+G-Mean: 0.248704
+
+[AGRESIVE PRUNING]
+Active IDs: 9
+Removed IDs: SCADA, SSH, google-base, ms-update, netbios-ns, ssl
+Detection Rate (PCAPs): 0.175258
+Raw Alerts (Attacks): 532
+Diff Alerts/Flow (Attacks): 520
+Raw Alerts (Legitimate): 4011
+Diff Alerts/Flow (Legitimate): 2528
+Raw Alerts (Total): 4543
+Usability (FP_Alerts/TP_Alerts): 7.5395
+G-Mean: 0.418189
+

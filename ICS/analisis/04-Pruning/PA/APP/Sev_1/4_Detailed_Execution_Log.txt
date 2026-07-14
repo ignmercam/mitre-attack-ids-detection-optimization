@@ -1,0 +1,61 @@
+=== START GM OPTIMIZATION - Engine: PA | Track: APP | Sev >= 1 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 61 | GM: 0.696028
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID 9999 -> GM: 0.696497
+  [+] IMPROVEMENT FOUND: Removed ID 9999. New GM: 0.696497
+
+Iteration 2:
+  Evaluating ID ssl -> GM: 0.757963
+  [+] IMPROVEMENT FOUND: Removed ID ssl. New GM: 0.757963
+
+Iteration 3:
+  Evaluating ID Suspicious -> GM: 0.758957
+  [+] IMPROVEMENT FOUND: Removed ID Suspicious. New GM: 0.758957
+
+Iteration 4:
+  Evaluating ID web-browsing -> GM: 0.739128
+  [-] No improvement. Keeping ID web-browsing.
+
+Iteration 5:
+  Evaluating ID TLS -> GM: 0.758997
+  [+] IMPROVEMENT FOUND: Removed ID TLS. New GM: 0.758997
+
+Iteration 6:
+  Evaluating ID ssh -> GM: 0.759000
+  [+] IMPROVEMENT FOUND: Removed ID ssh. New GM: 0.759000
+
+Iteration 7:
+  Evaluating ID 2 -> GM: 0.759009
+  [+] IMPROVEMENT FOUND: Removed ID 2. New GM: 0.759009
+
+Iteration 8:
+  Evaluating ID SCADA -> GM: 0.759009
+  [-] No improvement. Keeping ID SCADA.
+
+Iteration 9:
+  Evaluating ID Modbus -> GM: 0.759009
+  [-] No improvement. Keeping ID Modbus.
+
+Iteration 10:
+  Evaluating ID modbus-read-holding-registers -> GM: 0.759009
+  [-] No improvement. Keeping ID modbus-read-holding-registers.
+
+Iteration 11:
+  Evaluating ID NetBIOS -> GM: 0.759011
+  [+] IMPROVEMENT FOUND: Removed ID NetBIOS. New GM: 0.759011
+
+Iteration 12:
+  Evaluating ID cotp -> GM: 0.759011
+  [-] No improvement. Keeping ID cotp.
+
+Iteration 13:
+  Evaluating ID HTTP -> GM: 0.759011
+  [-] No improvement. Keeping ID HTTP.
+
+=== FINAL SUMMARY ===
+Final Active IDs: 54
+Final GM Optimal: 0.759011

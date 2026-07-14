@@ -1,0 +1,22 @@
+=== START GM OPTIMIZATION - RS4 (Priority <= 1) ===
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating SID 59597 -> GM: 0.507667
+  [+] IMPROVEMENT FOUND: Removed SID 59597. New GM: 0.507667
+
+Iteration 2:
+  Evaluating SID 50447 -> GM: 0.454076
+  [-] No improvement. Keeping SID 50447.
+
+Iteration 3:
+  Evaluating SID 57756 -> GM: 0.507668
+  [+] IMPROVEMENT FOUND: Removed SID 57756. New GM: 0.507668
+
+Iteration 4:
+  Evaluating SID 15306 -> GM: 0.507668
+  [+] IMPROVEMENT FOUND: Removed SID 15306. New GM: 0.507668
+
+=== FINAL SUMMARY ===
+Final Active SIDs: 32
+Final GM Optimal: 0.507668

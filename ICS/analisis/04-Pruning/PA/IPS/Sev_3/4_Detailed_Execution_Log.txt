@@ -1,0 +1,13 @@
+=== START GM OPTIMIZATION - Engine: PA | Track: IPS | Sev >= 3 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 12 | GM: 0.366087
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID Modbus -> GM: 0.336752
+  [-] No improvement. Keeping ID Modbus.
+
+=== FINAL SUMMARY ===
+Final Active IDs: 12
+Final GM Optimal: 0.366087

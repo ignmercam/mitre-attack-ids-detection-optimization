@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: IPS | Base Severity >= 3
+
+[PRUNING 500]
+Active IDs: 59
+Removed IDs: RPC, SIPVicious
+Detection Rate (PCAPs): 0.245455
+Raw Alerts (Attacks): 19937
+Diff Alerts/Flow (Attacks): 19898
+Raw Alerts (Legitimate): 96
+Diff Alerts/Flow (Legitimate): 96
+Raw Alerts (Total): 20033
+Usability (FP_Alerts/TP_Alerts): 0.0048
+G-Mean: 0.495433
+
+[PRUNING 1000]
+Active IDs: 60
+Removed IDs: SIPVicious
+Detection Rate (PCAPs): 0.245455
+Raw Alerts (Attacks): 19938
+Diff Alerts/Flow (Attacks): 19899
+Raw Alerts (Legitimate): 620
+Diff Alerts/Flow (Legitimate): 620
+Raw Alerts (Total): 20558
+Usability (FP_Alerts/TP_Alerts): 0.0311
+G-Mean: 0.495432
+
+[CONSERVATIVE PRUNING]
+Active IDs: 58
+Removed IDs: Netis/Netcore, SIPVicious, ZeroAccess.Gen
+Detection Rate (PCAPs): 0.245455
+Raw Alerts (Attacks): 19938
+Diff Alerts/Flow (Attacks): 19899
+Raw Alerts (Legitimate): 592
+Diff Alerts/Flow (Legitimate): 592
+Raw Alerts (Total): 20530
+Usability (FP_Alerts/TP_Alerts): 0.0297
+G-Mean: 0.495432
+
+[500+CONSERVATIVE]
+Active IDs: 57
+Removed IDs: Netis/Netcore, RPC, SIPVicious, ZeroAccess.Gen
+Detection Rate (PCAPs): 0.245455
+Raw Alerts (Attacks): 19937
+Diff Alerts/Flow (Attacks): 19898
+Raw Alerts (Legitimate): 68
+Diff Alerts/Flow (Legitimate): 68
+Raw Alerts (Total): 20005
+Usability (FP_Alerts/TP_Alerts): 0.0034
+G-Mean: 0.495433
+
+[1000+CONSERVATIVE]
+Active IDs: 58
+Removed IDs: Netis/Netcore, SIPVicious, ZeroAccess.Gen
+Detection Rate (PCAPs): 0.245455
+Raw Alerts (Attacks): 19938
+Diff Alerts/Flow (Attacks): 19899
+Raw Alerts (Legitimate): 592
+Diff Alerts/Flow (Legitimate): 592
+Raw Alerts (Total): 20530
+Usability (FP_Alerts/TP_Alerts): 0.0297
+G-Mean: 0.495432
+
+[AGRESIVE PRUNING]
+Active IDs: 57
+Removed IDs: Netis/Netcore, RPC, SIPVicious, ZeroAccess.Gen
+Detection Rate (PCAPs): 0.245455
+Raw Alerts (Attacks): 19937
+Diff Alerts/Flow (Attacks): 19898
+Raw Alerts (Legitimate): 68
+Diff Alerts/Flow (Legitimate): 68
+Raw Alerts (Total): 20005
+Usability (FP_Alerts/TP_Alerts): 0.0034
+G-Mean: 0.495433
+

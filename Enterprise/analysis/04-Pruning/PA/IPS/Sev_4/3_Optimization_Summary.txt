@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: IPS | Base Severity >= 4
+
+[PRUNING 500]
+Active IDs: 42
+Removed IDs: None
+Detection Rate (PCAPs): 0.172727
+Raw Alerts (Attacks): 19771
+Diff Alerts/Flow (Attacks): 19761
+Raw Alerts (Legitimate): 28
+Diff Alerts/Flow (Legitimate): 28
+Raw Alerts (Total): 19799
+Usability (FP_Alerts/TP_Alerts): 0.0014
+G-Mean: 0.415605
+
+[PRUNING 1000]
+Active IDs: 42
+Removed IDs: None
+Detection Rate (PCAPs): 0.172727
+Raw Alerts (Attacks): 19771
+Diff Alerts/Flow (Attacks): 19761
+Raw Alerts (Legitimate): 28
+Diff Alerts/Flow (Legitimate): 28
+Raw Alerts (Total): 19799
+Usability (FP_Alerts/TP_Alerts): 0.0014
+G-Mean: 0.415605
+
+[CONSERVATIVE PRUNING]
+Active IDs: 40
+Removed IDs: Netis/Netcore, ZeroAccess.Gen
+Detection Rate (PCAPs): 0.172727
+Raw Alerts (Attacks): 19771
+Diff Alerts/Flow (Attacks): 19761
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 19771
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.415605
+
+[500+CONSERVATIVE]
+Active IDs: 40
+Removed IDs: Netis/Netcore, ZeroAccess.Gen
+Detection Rate (PCAPs): 0.172727
+Raw Alerts (Attacks): 19771
+Diff Alerts/Flow (Attacks): 19761
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 19771
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.415605
+
+[1000+CONSERVATIVE]
+Active IDs: 40
+Removed IDs: Netis/Netcore, ZeroAccess.Gen
+Detection Rate (PCAPs): 0.172727
+Raw Alerts (Attacks): 19771
+Diff Alerts/Flow (Attacks): 19761
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 19771
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.415605
+
+[AGRESIVE PRUNING]
+Active IDs: 40
+Removed IDs: Netis/Netcore, ZeroAccess.Gen
+Detection Rate (PCAPs): 0.172727
+Raw Alerts (Attacks): 19771
+Diff Alerts/Flow (Attacks): 19761
+Raw Alerts (Legitimate): 0
+Diff Alerts/Flow (Legitimate): 0
+Raw Alerts (Total): 19771
+Usability (FP_Alerts/TP_Alerts): 0.0
+G-Mean: 0.415605
+

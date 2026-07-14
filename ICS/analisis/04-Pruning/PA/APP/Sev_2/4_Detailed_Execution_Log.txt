@@ -1,0 +1,37 @@
+=== START GM OPTIMIZATION - Engine: PA | Track: APP | Sev >= 2 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 35 | GM: 0.671230
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID ssl -> GM: 0.731389
+  [+] IMPROVEMENT FOUND: Removed ID ssl. New GM: 0.731389
+
+Iteration 2:
+  Evaluating ID web-browsing -> GM: 0.703438
+  [-] No improvement. Keeping ID web-browsing.
+
+Iteration 3:
+  Evaluating ID ssh -> GM: 0.731401
+  [+] IMPROVEMENT FOUND: Removed ID ssh. New GM: 0.731401
+
+Iteration 4:
+  Evaluating ID Modbus -> GM: 0.731401
+  [-] No improvement. Keeping ID Modbus.
+
+Iteration 5:
+  Evaluating ID modbus-read-holding-registers -> GM: 0.702708
+  [-] No improvement. Keeping ID modbus-read-holding-registers.
+
+Iteration 6:
+  Evaluating ID SCADA -> GM: 0.657324
+  [-] No improvement. Keeping ID SCADA.
+
+Iteration 7:
+  Evaluating ID HTTP -> GM: 0.731401
+  [-] No improvement. Keeping ID HTTP.
+
+=== FINAL SUMMARY ===
+Final Active IDs: 33
+Final GM Optimal: 0.731401

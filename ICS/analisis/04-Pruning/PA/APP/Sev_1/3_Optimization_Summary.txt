@@ -1,0 +1,75 @@
+=== G-MEAN OPTIMIZATION SUMMARY ===
+Engine: PA | Track: APP | Base Severity >= 1
+
+[PRUNING 500]
+Active IDs: 87
+Removed IDs: 9999, SSL, Suspicious, google-base, ssl, web-browsing
+Detection Rate (PCAPs): 0.546392
+Raw Alerts (Attacks): 420
+Diff Alerts/Flow (Attacks): 330
+Raw Alerts (Legitimate): 1355
+Diff Alerts/Flow (Legitimate): 1200
+Raw Alerts (Total): 1775
+Usability (FP_Alerts/TP_Alerts): 3.2262
+G-Mean: 0.738828
+
+[PRUNING 1000]
+Active IDs: 89
+Removed IDs: 9999, Suspicious, ssl, web-browsing
+Detection Rate (PCAPs): 0.546392
+Raw Alerts (Attacks): 420
+Diff Alerts/Flow (Attacks): 330
+Raw Alerts (Legitimate): 2581
+Diff Alerts/Flow (Legitimate): 2360
+Raw Alerts (Total): 3001
+Usability (FP_Alerts/TP_Alerts): 6.1452
+G-Mean: 0.738474
+
+[CONSERVATIVE PRUNING]
+Active IDs: 61
+Removed IDs: 109020002, SSH, SSL, apt-get, bing-maps, dns-base, flexnet-installanywhere, github-base, gitlab-base, google-analytics, google-base, google-update, imgur-base, jfrog-artifactory, linkedin-base, ms-onedrive-base, ms-product-activation, ms-spynet, ms-store, ms-teams, ms-update, netbios-ns, ocsp, soap, teamviewer-base, teamviewer-web, upnp, websocket, windows-azure-base, windows-push-notifications, youtube-base, zoom-base
+Detection Rate (PCAPs): 0.577320
+Raw Alerts (Attacks): 940
+Diff Alerts/Flow (Attacks): 1375
+Raw Alerts (Legitimate): 203181
+Diff Alerts/Flow (Legitimate): 382593
+Raw Alerts (Total): 204121
+Usability (FP_Alerts/TP_Alerts): 216.15
+G-Mean: 0.696028
+
+[500+CONSERVATIVE]
+Active IDs: 57
+Removed IDs: 9999, 109020002, SSH, SSL, Suspicious, apt-get, bing-maps, dns-base, flexnet-installanywhere, github-base, gitlab-base, google-analytics, google-base, google-update, imgur-base, jfrog-artifactory, linkedin-base, ms-onedrive-base, ms-product-activation, ms-spynet, ms-store, ms-teams, ms-update, netbios-ns, ocsp, soap, ssl, teamviewer-base, teamviewer-web, upnp, web-browsing, websocket, windows-azure-base, windows-push-notifications, youtube-base, zoom-base
+Detection Rate (PCAPs): 0.546392
+Raw Alerts (Attacks): 420
+Diff Alerts/Flow (Attacks): 330
+Raw Alerts (Legitimate): 192
+Diff Alerts/Flow (Legitimate): 220
+Raw Alerts (Total): 612
+Usability (FP_Alerts/TP_Alerts): 0.4571
+G-Mean: 0.739128
+
+[1000+CONSERVATIVE]
+Active IDs: 57
+Removed IDs: 9999, 109020002, SSH, SSL, Suspicious, apt-get, bing-maps, dns-base, flexnet-installanywhere, github-base, gitlab-base, google-analytics, google-base, google-update, imgur-base, jfrog-artifactory, linkedin-base, ms-onedrive-base, ms-product-activation, ms-spynet, ms-store, ms-teams, ms-update, netbios-ns, ocsp, soap, ssl, teamviewer-base, teamviewer-web, upnp, web-browsing, websocket, windows-azure-base, windows-push-notifications, youtube-base, zoom-base
+Detection Rate (PCAPs): 0.546392
+Raw Alerts (Attacks): 420
+Diff Alerts/Flow (Attacks): 330
+Raw Alerts (Legitimate): 192
+Diff Alerts/Flow (Legitimate): 220
+Raw Alerts (Total): 612
+Usability (FP_Alerts/TP_Alerts): 0.4571
+G-Mean: 0.739128
+
+[AGRESIVE PRUNING]
+Active IDs: 54
+Removed IDs: 2, 9999, 109020002, NetBIOS, SSH, SSL, Suspicious, TLS, apt-get, bing-maps, dns-base, flexnet-installanywhere, github-base, gitlab-base, google-analytics, google-base, google-update, imgur-base, jfrog-artifactory, linkedin-base, ms-onedrive-base, ms-product-activation, ms-spynet, ms-store, ms-teams, ms-update, netbios-ns, ocsp, soap, ssh, ssl, teamviewer-base, teamviewer-web, upnp, websocket, windows-azure-base, windows-push-notifications, youtube-base, zoom-base
+Detection Rate (PCAPs): 0.577320
+Raw Alerts (Attacks): 933
+Diff Alerts/Flow (Attacks): 836
+Raw Alerts (Legitimate): 3989
+Diff Alerts/Flow (Legitimate): 2514
+Raw Alerts (Total): 4922
+Usability (FP_Alerts/TP_Alerts): 4.2755
+G-Mean: 0.759011
+

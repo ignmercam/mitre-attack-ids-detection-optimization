@@ -1,0 +1,70 @@
+=== START GM OPTIMIZATION - RS2 (Priority <= 4) ===
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating SID 2001330 -> GM: 0.672512
+  [+] IMPROVEMENT FOUND: Removed SID 2001330. New GM: 0.672512
+
+Iteration 2:
+  Evaluating SID 2102465 -> GM: 0.673409
+  [+] IMPROVEMENT FOUND: Removed SID 2102465. New GM: 0.673409
+
+Iteration 3:
+  Evaluating SID 2025992 -> GM: 0.673409
+  [-] No improvement. Keeping SID 2025992.
+
+Iteration 4:
+  Evaluating SID 2025649 -> GM: 0.673409
+  [-] No improvement. Keeping SID 2025649.
+
+Iteration 5:
+  Evaluating SID 2010937 -> GM: 0.673433
+  [+] IMPROVEMENT FOUND: Removed SID 2010937. New GM: 0.673433
+
+Iteration 6:
+  Evaluating SID 2100366 -> GM: 0.666681
+  [-] No improvement. Keeping SID 2100366.
+
+Iteration 7:
+  Evaluating SID 2010935 -> GM: 0.673448
+  [+] IMPROVEMENT FOUND: Removed SID 2010935. New GM: 0.673448
+
+Iteration 8:
+  Evaluating SID 2101411 -> GM: 0.666689
+  [-] No improvement. Keeping SID 2101411.
+
+Iteration 9:
+  Evaluating SID 2025650 -> GM: 0.673448
+  [+] IMPROVEMENT FOUND: Removed SID 2025650. New GM: 0.673448
+
+Iteration 10:
+  Evaluating SID 2010939 -> GM: 0.673452
+  [+] IMPROVEMENT FOUND: Removed SID 2010939. New GM: 0.673452
+
+Iteration 11:
+  Evaluating SID 2010936 -> GM: 0.673454
+  [+] IMPROVEMENT FOUND: Removed SID 2010936. New GM: 0.673454
+
+Iteration 12:
+  Evaluating SID 2027413 -> GM: 0.666686
+  [-] No improvement. Keeping SID 2027413.
+
+Iteration 13:
+  Evaluating SID 2002911 -> GM: 0.673454
+  [+] IMPROVEMENT FOUND: Removed SID 2002911. New GM: 0.673454
+
+Iteration 14:
+  Evaluating SID 2023753 -> GM: 0.673454
+  [+] IMPROVEMENT FOUND: Removed SID 2023753. New GM: 0.673454
+
+Iteration 15:
+  Evaluating SID 2010938 -> GM: 0.673455
+  [+] IMPROVEMENT FOUND: Removed SID 2010938. New GM: 0.673455
+
+Iteration 16:
+  Evaluating SID 2024297 -> GM: 0.673455
+  [+] IMPROVEMENT FOUND: Removed SID 2024297. New GM: 0.673455
+
+=== FINAL SUMMARY ===
+Final Active SIDs: 179
+Final GM Optimal: 0.673455

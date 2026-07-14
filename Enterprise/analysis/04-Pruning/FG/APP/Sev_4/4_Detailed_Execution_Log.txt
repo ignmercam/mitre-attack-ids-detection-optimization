@@ -1,0 +1,149 @@
+=== START GM OPTIMIZATION - Engine: FG | Track: APP | Sev >= 4 ===
+
+=== PHASE 1: EXCLUSIVE FP REMOVAL (CONSERVATIVE) ===
+[State after Phase 1] Active IDs: 105 | GM: 0.833673
+
+=== PHASE 2: DIFFERENT ALERTS/FLOW SORTED OPTIMIZATION (G-MEAN) ===
+Iteration 1:
+  Evaluating ID 16195 -> GM: 0.882894
+  [+] IMPROVEMENT FOUND: Removed ID 16195. New GM: 0.882894
+
+Iteration 2:
+  Evaluating ID 15511 -> GM: 0.882895
+  [+] IMPROVEMENT FOUND: Removed ID 15511. New GM: 0.882895
+
+Iteration 3:
+  Evaluating ID 33106 -> GM: 0.907252
+  [+] IMPROVEMENT FOUND: Removed ID 33106. New GM: 0.907252
+
+Iteration 4:
+  Evaluating ID 15895 -> GM: 0.907498
+  [+] IMPROVEMENT FOUND: Removed ID 15895. New GM: 0.907498
+
+Iteration 5:
+  Evaluating ID 27457 -> GM: 0.907505
+  [+] IMPROVEMENT FOUND: Removed ID 27457. New GM: 0.907505
+
+Iteration 6:
+  Evaluating ID 44611 -> GM: 0.911014
+  [+] IMPROVEMENT FOUND: Removed ID 44611. New GM: 0.911014
+
+Iteration 7:
+  Evaluating ID 43963 -> GM: 0.912064
+  [+] IMPROVEMENT FOUND: Removed ID 43963. New GM: 0.912064
+
+Iteration 8:
+  Evaluating ID 34050 -> GM: 0.897900
+  [-] No improvement. Keeping ID 34050.
+
+Iteration 9:
+  Evaluating ID 31755 -> GM: 0.912568
+  [+] IMPROVEMENT FOUND: Removed ID 31755. New GM: 0.912568
+
+Iteration 10:
+  Evaluating ID 41469 -> GM: 0.907892
+  [-] No improvement. Keeping ID 41469.
+
+Iteration 11:
+  Evaluating ID 16321 -> GM: 0.907740
+  [-] No improvement. Keeping ID 16321.
+
+Iteration 12:
+  Evaluating ID 12090 -> GM: 0.912675
+  [+] IMPROVEMENT FOUND: Removed ID 12090. New GM: 0.912675
+
+Iteration 13:
+  Evaluating ID 24466 -> GM: 0.907821
+  [-] No improvement. Keeping ID 24466.
+
+Iteration 14:
+  Evaluating ID 16270 -> GM: 0.912750
+  [+] IMPROVEMENT FOUND: Removed ID 16270. New GM: 0.912750
+
+Iteration 15:
+  Evaluating ID 17017 -> GM: 0.912825
+  [+] IMPROVEMENT FOUND: Removed ID 17017. New GM: 0.912825
+
+Iteration 16:
+  Evaluating ID 16250 -> GM: 0.907915
+  [-] No improvement. Keeping ID 16250.
+
+Iteration 17:
+  Evaluating ID 16083 -> GM: 0.907903
+  [-] No improvement. Keeping ID 16083.
+
+Iteration 18:
+  Evaluating ID 15897 -> GM: 0.912873
+  [+] IMPROVEMENT FOUND: Removed ID 15897. New GM: 0.912873
+
+Iteration 19:
+  Evaluating ID 28198 -> GM: 0.912918
+  [+] IMPROVEMENT FOUND: Removed ID 28198. New GM: 0.912918
+
+Iteration 20:
+  Evaluating ID 43796 -> GM: 0.912956
+  [+] IMPROVEMENT FOUND: Removed ID 43796. New GM: 0.912956
+
+Iteration 21:
+  Evaluating ID 44623 -> GM: 0.902998
+  [-] No improvement. Keeping ID 44623.
+
+Iteration 22:
+  Evaluating ID 34789 -> GM: 0.912966
+  [+] IMPROVEMENT FOUND: Removed ID 34789. New GM: 0.912966
+
+Iteration 23:
+  Evaluating ID 17136 -> GM: 0.912971
+  [+] IMPROVEMENT FOUND: Removed ID 17136. New GM: 0.912971
+
+Iteration 24:
+  Evaluating ID 16206 -> GM: 0.887817
+  [-] No improvement. Keeping ID 16206.
+
+Iteration 25:
+  Evaluating ID 16267 -> GM: 0.912975
+  [+] IMPROVEMENT FOUND: Removed ID 16267. New GM: 0.912975
+
+Iteration 26:
+  Evaluating ID 32609 -> GM: 0.912975
+  [+] IMPROVEMENT FOUND: Removed ID 32609. New GM: 0.912975
+
+Iteration 27:
+  Evaluating ID 34795 -> GM: 0.908001
+  [-] No improvement. Keeping ID 34795.
+
+Iteration 28:
+  Evaluating ID 44624 -> GM: 0.908000
+  [-] No improvement. Keeping ID 44624.
+
+Iteration 29:
+  Evaluating ID 34039 -> GM: 0.908000
+  [-] No improvement. Keeping ID 34039.
+
+Iteration 30:
+  Evaluating ID 16173 -> GM: 0.912975
+  [+] IMPROVEMENT FOUND: Removed ID 16173. New GM: 0.912975
+
+Iteration 31:
+  Evaluating ID 16265 -> GM: 0.902998
+  [-] No improvement. Keeping ID 16265.
+
+Iteration 32:
+  Evaluating ID 16060 -> GM: 0.908000
+  [-] No improvement. Keeping ID 16060.
+
+Iteration 33:
+  Evaluating ID 35662 -> GM: 0.912975
+  [-] No improvement. Keeping ID 35662.
+
+Iteration 34:
+  Evaluating ID 11767 -> GM: 0.912975
+  [+] IMPROVEMENT FOUND: Removed ID 11767. New GM: 0.912975
+
+Iteration 35:
+  Evaluating ID 17011 -> GM: 0.908000
+  [-] No improvement. Keeping ID 17011.
+
+=== FINAL SUMMARY ===
+Final Active IDs: 85
+Final GM Optimal: 0.912975
