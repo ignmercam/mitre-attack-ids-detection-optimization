@@ -45,7 +45,7 @@ To address the visibility-versus-noise dilemma, this project implements an **aut
 ## Dataset Sanitization & Integration
 
 - Consolidated a massive corporate baseline exceeding **78 million legitimate network flows**.
-- Integrated a real-world **smart factory industrial dataset** collected in Vienna.
+- Integrated a real-world **smart factory industrial dataset**.
 - Achieved **100% coverage** of all network-detectable techniques under the **MITRE ATT&CK® Enterprise** and **MITRE ATT&CK® ICS** matrices.
 
 ## Advanced Threat Simulation
@@ -66,7 +66,6 @@ To address the visibility-versus-noise dilemma, this project implements an **aut
 
 - Designed and implemented a mathematical optimization pipeline in Python using the **Geometric Mean (G-Mean)** as the optimization metric.
 - Surgically eliminated chronic false-positive signatures.
-- Achieved **FPR = 0%** within industrial environments while fully preserving attack detection capability.
 
 ---
 
@@ -111,13 +110,6 @@ Each evaluation matrix contains its own master spreadsheet:
 - **Enterprise/Tables-Enterprise.xlsx**
 - **ICS/Tables-ICS.xlsx**
 
-These workbooks compile:
-
-- Trilateral IDS/IPS performance comparisons
-- Flow-level statistics
-- Operational usability (**FTTAR**) metrics
-- False-positive analysis
-- Detection capability metrics
 
 ---
 
